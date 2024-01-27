@@ -1,0 +1,32 @@
+{
+  "stack": [
+    {
+      "imageUrl": "/HTML-CSS.svg",
+      "name": "html-and-css-icon",
+      "class": "stack-icon",
+      "key": "1"
+    },
+    {
+      "imageUrl": "/JS-REACT.svg",
+      "name": "js-and-react-icon",
+      "class": "stack-icon",
+      "key": "2"
+    },
+    {
+      "imageUrl": "/BOOTSTRAP-SASS.svg",
+      "name": "bootstrap-and-sass-icon",
+      "class": "stack-icon",
+      "key": "3"
+    },
+    {
+      "imageUrl": "/FIGMA-GIT.svg",
+      "name": "figma-and-git-icon",
+      "class": "stack-icon",
+      "key": "4"
+    }
+  ],
+  "about": {
+    "bio": "A dedicated Front-end Developer Based in Yogyakarta, Indonesia",
+    "desc": "I am a self-taught web developer proficient in creating responsive websites. My creativity is reflected in aesthetically pleasing designs, while my passion for learning and quick adaptability allows me to stay abreast of technological developments. I have expertise in HTML, CSS, JavaScript, React.js, Bootstrap, and Figma, enhancing my ability to deliver comprehensive and visually appealing web solutions."
+  }
+}

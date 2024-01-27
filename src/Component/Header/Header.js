@@ -1,0 +1,53 @@
+import React from "react";
+
+import {
+  Navbar,
+  Nav,
+  Container,
+  NavbarBrand,
+  NavbarOffcanvas,
+  OffcanvasHeader,
+  NavbarToggle,
+  OffcanvasTitle,
+  OffcanvasBody,
+} from "react-bootstrap";
+
+import "./Header.css"
+
+export default function Header() {
+  return (
+    <Navbar collapseOnSelect sticky="top" className="Nav" expand="lg">
+      <Container>
+        <NavbarBrand className="navbar-brand">
+          Faruq<span className="blue-color">.dev</span>
+        </NavbarBrand>
+        <NavbarToggle aria-controls={"offcanvasNavbar-expand-lg"} />
+        <NavbarOffcanvas
+          id={"offcanvasNavbar-expand-lg"}
+          aria-labelledby={"offcanvasNavbarLabel-expand-lg"}
+          placement="end"
+        >
+          <OffcanvasHeader closeButton>
+            <OffcanvasTitle
+              id={"offcanvasNavbarLabel-expand-lg"}
+            ></OffcanvasTitle>
+          </OffcanvasHeader>
+          <OffcanvasBody className="offcanvas-body">
+            <Nav className="nav justify-content-end flex-grow-1 pe-3" id="navbar">
+              <Nav.Link  href="#Home" className="offcanvas-case">Home</Nav.Link>
+              <Nav.Link  href="#About" className="ml-5 offcanvas-case">
+                About
+              </Nav.Link>
+              <Nav.Link  href="#Project" className="ml-5 offcanvas-case">
+                Project
+              </Nav.Link>
+              <Nav.Link  href="#Contact" className="ml-5 offcanvas-case">
+                Contact
+              </Nav.Link>
+            </Nav>
+          </OffcanvasBody>
+        </NavbarOffcanvas>
+      </Container>
+    </Navbar>
+  );
+}

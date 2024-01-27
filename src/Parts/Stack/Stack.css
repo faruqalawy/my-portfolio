@@ -1,0 +1,62 @@
+/* styling for STACK LARGE*/
+.Stack {
+
+  .stack {
+    margin-top: -16px;
+  }
+
+  .content {
+    .tech-text {
+      display: inline-block;
+      max-width: fit-content;
+      height: fit-content;
+      font-size: clamp(22px, 24px, 28px);
+      white-space: nowrap;
+    }
+
+    .lg {
+      border-right: 3px solid rgba(0, 0, 0, 0.5);
+      padding-right: 1rem;
+      margin-right: 60px;
+    }
+
+    .icon {
+      margin-right: 45px;
+    }
+  }
+
+  .icon-lg {
+    height: clamp(40px, 60px, 60px);
+    width: clamp(91px, 130px, 130px);
+  }
+
+  .stack-icon {
+    transition: transform 0.4s ease;
+
+    &:hover {
+      transform: translateY(-1em);
+    }
+  }
+}
+
+/* styling for STACK SMALL */
+.Stack {
+  .content {
+    .sm {
+      border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+      padding: 5px;
+      margin-bottom: clamp(35px, 40px, 45px);
+      margin-top: clamp(50px, 55px, 60px);
+    }
+
+    .icon-sm {
+      .stack-icon {
+        margin-bottom: 35px;
+        margin-left: 8px;
+        margin-right: 8px;
+        height: clamp(40px, 80px, 80px);
+        width: clamp(91px, 160px, 182px);
+      }
+    }
+  }
+}

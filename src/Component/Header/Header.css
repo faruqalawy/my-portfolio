@@ -1,0 +1,47 @@
+.Nav {
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.03);
+  background-color: white;
+
+  .navbar-brand {
+    font-weight: 600;
+    font-size: min(8vw, 32px) !important;
+  }
+
+  .nav {
+    font-size: 22px !important;
+    padding-left: 50px;
+    font-weight: 500;
+    padding-right: 0 !important;
+
+    .ml-5 {
+      padding-left: 25px !important;
+    }
+
+    :hover,
+    .active {
+      color: #1060ee !important;
+    }
+  }
+}
+
+/* styling for OFFCANVAS ( <= 991px ) */
+@media screen and (max-width: 991px) {
+    .offcanvas {
+        width: 100% !important;
+
+        .offcanvas-body {
+            display: flex !important;
+            align-items: center;
+    
+            .offcanvas-case {
+                font-size: clamp(30px, 40px, 45px) !important;
+                display: flex !important;
+                justify-content: center;
+        
+                &:hover, .active {
+                    color: #1060ee !important;
+                }
+            }
+        }
+    }
+}

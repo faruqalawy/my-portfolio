@@ -1,0 +1,27 @@
+.About {
+    .image-container {
+      display: flex; 
+      justify-content: space-between; 
+      align-items: flex-start; 
+    }
+    .title {
+      margin-bottom: 8px;
+    }
+  }
+  
+/* styling for ABOUT SMALL */
+.sm {
+    margin-top: clamp(35px, 40px, 45px);
+}
+
+
+@media screen and (max-width: 520px) {
+    .bio-sm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-bio {
+        margin-bottom: 0;
+    }
+}

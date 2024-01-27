@@ -1,0 +1,91 @@
+.project {
+  .project-head {
+    padding: 40px 0;
+    margin: 0;
+  }
+  .card {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+
+    .project-title {
+      font-size: clamp(20px, 22px, 24px);
+
+      .project-year {
+        font-size: clamp(16px, 17px, 18px);
+      }
+    }
+
+    .project-desc-sm {
+      margin-left: clamp(15px, 18px, 25px);
+      margin-right: clamp(15px, 18px, 25px);
+    }
+
+    .btn-project {
+      border: none;
+      background-color: white;
+      color: black;
+      width: 120px;
+      box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+      border: 1px solid white;
+
+      &:hover {
+        color: #1060ee;
+        box-shadow: 0 0 8px 2px rgba(16, 96, 238, 0.1);
+        border: 1px solid #1060ee;
+      }
+
+      &:active {
+        color: white;
+      }
+    }
+
+    .project-image {
+      transition: ease-in-out 10s;
+      background: url(../../Assets/Images/fullpage-cozyhavens.png);
+      background-size: cover;
+      border-radius: 20px;
+      box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+        width: 95%;
+
+      &:hover {
+        background-position: bottom;
+        cursor: pointer;
+      }
+    }
+
+    /* styling for display > 992px */
+    .lg {
+      margin-top: clamp(15px, 20px, 25px);
+      margin-right: clamp(15px, 20px, 25px);
+      margin-bottom: clamp(15px, 20px, 25px);
+      float: right;
+      padding-top: 56.25%;
+    }
+
+    /* styling for display < 992px */
+    .sm {
+      margin-top: clamp(15px, 18px, 25px);
+      margin-bottom: clamp(15px, 18px, 25px);
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 50%;
+    }
+  }
+}
+
+/* styling for SMALL display < 992px */
+.btn-container {
+  margin-bottom: clamp(20px, 25px, 25px);
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  margin-right: 15px !important;
+  margin-left: 15px !important;
+}
+
+@media screen and (max-width: 443px) {
+    .btn-3 {
+        margin-top: 15px !important;
+    }
+}

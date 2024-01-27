@@ -1,0 +1,16 @@
+.tilt-container {
+    max-width: 425px;
+    height: fit-content;
+  
+    .right-image {
+      width: min(300px, 67vw);
+      margin-left: min(20vw, 128px);
+      order: 2; /* Mengganti urutan gambar */
+    }
+  
+    .left-image {
+      width: min(200px, 40vw);
+      margin-top: max(-18vw, -85px);
+      order: 1; /* Mengganti urutan gambar */
+    }
+  }
