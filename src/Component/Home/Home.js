@@ -5,11 +5,13 @@ import { TypeAnimation } from "react-type-animation";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import LinkedinIcon from "../Assets/Icons/linkedin-home.svg";
+import LinkedinIcon from "../../Assets/Icons/linkedin-home.svg";
 
-import Stack from "../Parts/Stack/Stack";
+import Stack from "../../Parts/Stack/Stack";
 
-import portfolio from "../Json/portfolio.json";
+import portfolio from "../../Json/portfolio.json";
+
+import "./Home.css"
 
 export default function Content() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);

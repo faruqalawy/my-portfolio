@@ -60,3 +60,10 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  .icon-container {
+    margin-right: 0; /* Menghapus margin saat lebar layar mengecil */
+    margin-bottom: 10px; /* Memberikan jarak antar icon saat ada di baris baru */
+  }
+}

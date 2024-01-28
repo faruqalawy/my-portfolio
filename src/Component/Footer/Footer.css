@@ -1,0 +1,11 @@
+.footer {
+  .icon-footer {
+    margin: 55px, 0, 25px, 0;
+  }
+
+  .text-footer {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+  }
+}

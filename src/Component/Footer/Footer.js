@@ -1,7 +1,10 @@
 import React from 'react';
 import { Container, Col } from 'react-bootstrap';
-import LinkedinIcon from "../Assets/Icons/linkedin-footer.svg";
-import GithubIcon from "../Assets/Icons/github-footer.svg";
+
+import LinkedinIcon from "../../Assets/Icons/linkedin-footer.svg";
+import GithubIcon from "../../Assets/Icons/github-footer.svg";
+
+import "./Footer.css"
 
 export default function Footer() {
   return (

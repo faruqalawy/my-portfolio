@@ -1,0 +1,54 @@
+.Home {
+  .left-side {
+    .hello-text {
+      font-size: clamp(30px, 5vw, 40px);
+    }
+
+    .name-text {
+      font-size: clamp(45px, 8vw, 65px);
+    }
+
+    .skill-text {
+      font-size: clamp(25px, 5vw, 45px);
+
+      span {
+        font-size: clamp(20px, 4vw, 35px);
+      }
+    }
+  }
+
+  .icon:hover {
+    cursor: pointer;
+  }
+
+  .linkedin-home:hover {
+    content: url(../../Assets/Icons/linkedin-home-hover.svg);
+  }
+
+  .github-home:hover {
+    color: #1060ee !important;
+  }
+
+  .blob {
+    background-image: url(../../Assets/Images/myPicture_1.png);
+    width: min(80vw, 460px);
+    height: min(80vw, 450px);
+    padding: 0;
+    margin-bottom: clamp(15px, 30px, 110px);
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 5px 5px 5px rgba(16, 96, 238, 0.3);
+    animation: animate 8s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+  }
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+}

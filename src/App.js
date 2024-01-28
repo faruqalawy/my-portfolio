@@ -1,11 +1,11 @@
 import "./App.css";
 
 import Header from "./Component/Header/Header";
-import Home from "./Component/Home";
+import Home from "./Component//Home/Home";
 import About from "./Component/About/About";
 import Project from "./Component/Project/Project";
 import Contact from "./Component/Contact/Contact";
-import Footer from "./Component/Footer";
+import Footer from "./Component/Footer/Footer";
 
 import portfolio from "./Json/portfolio.json"
 

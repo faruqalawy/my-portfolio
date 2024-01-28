@@ -34,9 +34,10 @@
             align-items: center;
     
             .offcanvas-case {
-                font-size: clamp(30px, 40px, 45px) !important;
+                font-size: clamp(20px, 30px, 35px) !important;
                 display: flex !important;
                 justify-content: center;
+                overflow-y: scroll !important;
         
                 &:hover, .active {
                     color: #1060ee !important;
