@@ -57,7 +57,7 @@ export default function About( props ) {
               </Col>
               <Col>
                 <p className="font-600 title">STACK</p>
-                <p>Html, Css, JS, React, Bootstrap, Figma</p>
+                <p>Html, Css, JS, React, Bootstrap, Sass, Figma, Git</p>
               </Col>
             </Row>
             <Row className="bio-sm">
@@ -99,14 +99,14 @@ export default function About( props ) {
             <p>
               {props.data.desc}
             </p>
-            <Row style={{ marginTop: 9, marginBottom: 16 }}>
+            <Row style={{ marginTop: 9, marginBottom: 5 }}>
               <Col>
                 <p className="font-600 title">NAME</p>
                 <p>Faruq Alawy</p>
               </Col>
               <Col>
                 <p className="font-600 title">STACK</p>
-                <p>Html, Css, JS, React, Bootstrap, Figma</p>
+                <p>Html, Css, JS, React, Bootstrap, Sass, Figma, Git</p>
               </Col>
             </Row>
             <Row>
