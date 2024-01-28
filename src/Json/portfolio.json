@@ -1,25 +1,25 @@
 {
   "stack": [
     {
-      "imageUrl": "/HTML-CSS.svg",
+      "imageUrl": "my-portfolio/HTML-CSS.svg",
       "name": "html-and-css-icon",
       "class": "stack-icon",
       "key": "1"
     },
     {
-      "imageUrl": "/JS-REACT.svg",
+      "imageUrl": "my-portfolio/JS-REACT.svg",
       "name": "js-and-react-icon",
       "class": "stack-icon",
       "key": "2"
     },
     {
-      "imageUrl": "/BOOTSTRAP-SASS.svg",
+      "imageUrl": "./my-portfolio/BOOTSTRAP-SASS.svg",
       "name": "bootstrap-and-sass-icon",
       "class": "stack-icon",
       "key": "3"
     },
     {
-      "imageUrl": "/FIGMA-GIT.svg",
+      "imageUrl": "./my-portfolio/FIGMA-GIT.svg",
       "name": "figma-and-git-icon",
       "class": "stack-icon",
       "key": "4"
