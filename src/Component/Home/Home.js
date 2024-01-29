@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import { TypeAnimation } from "react-type-animation";
 
@@ -11,7 +11,7 @@ import Stack from "../../Parts/Stack/Stack";
 
 import portfolio from "../../Json/portfolio.json";
 
-import "./Home.css"
+import "./Home.css";
 
 export default function Content() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -33,7 +33,12 @@ export default function Content() {
       {windowWidth < 1001 ? (
         <>
           <Col className="d-flex flex-column align-items-center">
-            <Image style={{ marginTop: 50 }} className="blob" />
+            <div
+              style={{ marginTop: 50 }}
+              className="blob"
+              role="img" // Atribut role="img" menandakan bahwa elemen ini adalah gambar
+              aria-label="Main Home Image" // Atribut aria-label berisi deskripsi alternatif
+            ></div>
             <div className="left-side">
               <h2 className="hello-text text-center">Hello, I'm</h2>
               <h1 style={{ fontWeight: 600 }} className="name-text text-center">
@@ -143,10 +148,12 @@ export default function Content() {
                 </a>
               </div>
             </Col>
-            <Image
-              style={{ marginBottom: 110, marginTop: 50 }}
+            <div
+              style={{ marginTop: 50 }}
               className="blob"
-            />
+              role="img" // Atribut role="img" menandakan bahwa elemen ini adalah gambar
+              aria-label="Main Home Image" // Atribut aria-label berisi deskripsi alternatif
+            ></div>
           </Row>
         </>
       )}

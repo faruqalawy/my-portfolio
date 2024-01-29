@@ -30,7 +30,7 @@
   }
 
   .blob {
-    background-image: url(../../Assets/Images/myPicture_1.png);
+    background-image: url(../../Assets/Images/myPicture_1.webp);
     width: min(80vw, 460px);
     height: min(80vw, 450px);
     padding: 0;

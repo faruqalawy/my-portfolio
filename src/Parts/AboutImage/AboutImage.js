@@ -1,7 +1,7 @@
 import { Tilt } from "react-tilt";
 
-import About1 from "../../Assets/Images/about-1.png";
-import About2 from "../../Assets/Images/about-2.png";
+import About1 from "../../Assets/Images/about-1.webp";
+import About2 from "../../Assets/Images/about-2.webp";
 
 import "./AboutImage.css"
 

@@ -31,10 +31,10 @@ export default function Project() {
                 <div className="project-image sm" />
               </Col>
               <Col className="d-flex flex-column align-items-center justify-content-center">
-                <h3 className="font-600 project-title">
+                <h1 className="font-600 project-title">
                   Cozy Havens{" "}
                   <span className="project-year">(DECEMBER 2023)</span>
-                </h3>
+                </h1>
                 <p className="text-center project-desc-sm">
                   Cozy Havens website is an online platform that allow users to
                   rent accommodation, offering a user-friendly interface to
