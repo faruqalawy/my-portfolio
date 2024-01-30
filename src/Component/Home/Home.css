@@ -34,7 +34,7 @@
     width: min(80vw, 460px);
     height: min(80vw, 450px);
     padding: 0;
-    margin-bottom: clamp(15px, 30px, 110px);
+    margin-bottom: max(35px, 7vw);
     background-size: cover;
     background-position: center center;
     box-shadow: 0 5px 5px 5px rgba(16, 96, 238, 0.3);
