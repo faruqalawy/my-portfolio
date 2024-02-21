@@ -47,3 +47,9 @@
 .section-title {
   font-size: clamp(22px, 24px, 28px);
 }
+
+/* styling for every description text */
+.description-text {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(97, 89, 120);
+}

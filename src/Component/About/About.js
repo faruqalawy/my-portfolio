@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import "./About.css"
+import "../../App.css"
 
 import AboutImage from "../../Parts/AboutImage/AboutImage";
 import Stack from "../../Parts/Stack/Stack";
@@ -47,7 +48,7 @@ export default function About( props ) {
             >
               {props.data.bio}
             </h1>
-            <p>
+            <p className="description-text">
              {props.data.desc}
             </p>
             <Row className="bio-sm top-bio" style={{ marginTop: 9}}>
@@ -96,7 +97,7 @@ export default function About( props ) {
             >
               {props.data.bio}
             </h1>
-            <p>
+            <p className="text-description">
               {props.data.desc}
             </p>
             <Row style={{ marginTop: 9, marginBottom: 5 }}>

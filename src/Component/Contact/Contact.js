@@ -91,6 +91,7 @@ const formRef = useRef(null); {/* this ref used by this function and emailjs fun
               allowfullsscreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              title="yogyakarta-city-region-map"
             ></iframe>
           ) : (
             <iframe
@@ -101,6 +102,7 @@ const formRef = useRef(null); {/* this ref used by this function and emailjs fun
               allowfullsscreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              title="yogyakarta-city-region-map"
             ></iframe>
           )}
         </Col>

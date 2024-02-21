@@ -31,8 +31,8 @@
 
   .blob {
     background-image: url(../../Assets/Images/myPicture_1.webp);
-    width: min(80vw, 460px);
-    height: min(80vw, 450px);
+    width: min(80vw, 500px);
+    height: min(80vw, 500px);
     padding: 0;
     margin-bottom: max(35px, 7vw);
     background-size: cover;
