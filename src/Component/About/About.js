@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import "./About.css"
-import "../../App.css"
 
 import AboutImage from "../../Parts/AboutImage/AboutImage";
 import Stack from "../../Parts/Stack/Stack";
@@ -97,27 +96,27 @@ export default function About( props ) {
             >
               {props.data.bio}
             </h1>
-            <p className="text-description">
+            <p className="description-text">
               {props.data.desc}
             </p>
             <Row style={{ marginTop: 9, marginBottom: 5 }}>
               <Col>
                 <p className="font-600 title">NAME</p>
-                <p>Faruq Alawy</p>
+                <p className="description-text">Faruq Alawy</p>
               </Col>
               <Col>
                 <p className="font-600 title">STACK</p>
-                <p>Html, Css, JS, React, Bootstrap, Sass, Figma, Git</p>
+                <p className="description-text">Html, Css, JS, React, Bootstrap, Sass, Figma, Git</p>
               </Col>
             </Row>
             <Row>
               <Col>
                 <p className="font-600 title">EMAIL</p>
-                <p>faruqhudaya@gmail.com</p>
+                <p className="description-text">faruqhudaya@gmail.com</p>
               </Col>
               <Col>
                 <p className="font-600 title">EMPLOYEMENT</p>
-                <p>Open</p>
+                <p className="description-text">Open</p>
               </Col>
             </Row>
           </Col>
