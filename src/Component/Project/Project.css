@@ -1,7 +1,7 @@
 .project {
+  padding-bottom: 80px;
   .project-head {
     padding: 40px 0;
-    margin: 0;
   }
   .card {
     border-radius: 20px;
@@ -42,7 +42,6 @@
 
     .project-image {
       transition: ease-in-out 10s;
-      background: url(../../Assets/Images/fullpage-cozyhavens.webp);
       background-size: cover;
       border-radius: 20px;
       box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
@@ -70,6 +69,10 @@
       margin-left: auto;
       margin-right: auto;
       padding-top: 50%;
+    }
+
+    .reverse-version {
+      margin-right: auto
     }
   }
 }

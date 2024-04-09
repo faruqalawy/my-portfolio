@@ -20,15 +20,20 @@ export default function Project() {
     };
   }, []);
 
+  // Fungsi untuk menentukan apakah tombol harus ditampilkan
+  const isShowed = (url) => {
+    return url ? true : false;
+  };
+
   return (
     <Container className="project" id="Project">
       <h1 className="text-center project-head section-title blue-color font-600">
         MY PROJECT
       </h1>
-      {windowWidth < 992 ? (
-        <Col>
-          {jsonPortfolio.project.map((item) => {
-            <Card className="card">
+      {jsonPortfolio.project.map((item, index) => (
+        <Col key={index} className="mb-4">
+          <Card className="card">
+            {windowWidth < 992 ? (
               <Row className="d-flex flex-column">
                 <Col>
                   <div className="project-image sm" />
@@ -45,39 +50,38 @@ export default function Project() {
                   <p className="text-center project-desc-sm">{item.desc}</p>
                   <p>Stack: {item.stack}</p>
                   <Row className="btn-container d-flex">
-                    <Button
-                      variant="outline-primary"
-                      className="btn-project"
-                      href="https://www.figma.com/file/3VDpuKmf4RKkQ93R6UJigS/Website-CozyHavens?type=design&node-id=0%3A1&mode=design&t=9k7ZTIQRdOVE5ZnN-1"
-                    >
-                      Design
-                    </Button>
-                    <Button
-                      variant="outline-primary"
-                      className="btn-project"
-                      href="https://github.com/faruqalawy/Cozy-Havens"
-                    >
-                      Code
-                    </Button>
-                    <Button
-                      variant="outline-primary"
-                      className="btn-project btn-3"
-                      href="https://faruqalawy.github.io/Cozy-Havens/"
-                    >
-                      Live Demo
-                    </Button>
+                    {isShowed(item.designUrl) && (
+                      <Button
+                        variant="outline-primary"
+                        className="btn-project"
+                        href={item.designUrl}
+                      >
+                        Design
+                      </Button>
+                    )}
+                    {isShowed(item.codeUrl) && (
+                      <Button
+                        variant="outline-primary"
+                        className="btn-project"
+                        href={item.codeUrl}
+                      >
+                        Code
+                      </Button>
+                    )}
+                    {isShowed(item.liveUrl) && (
+                      <Button
+                        variant="outline-primary"
+                        className="btn-project btn-3"
+                        href={item.liveUrl}
+                      >
+                        Live Demo
+                      </Button>
+                    )}
                   </Row>
                 </Col>
               </Row>
-            </Card>;
-          })}
-          <div style={{ paddingBottom: 80 }} />
-        </Col>
-      ) : (
-        <Col>
-          {jsonPortfolio.project.map((item) => {
-            <Card className="card">
-              <Row className="d-flex align-items-center">
+            ) : (
+              <Row className={`d-flex align-items-center ${index % 2 === 0 ? "" : "flex-row-reverse"}`}>
                 <Col className="d-flex flex-column align-items-center">
                   <h3 className="font-600 project-title">
                     {item.name}{" "}
@@ -88,46 +92,50 @@ export default function Project() {
                     </span>
                   </h3>
                   <p className="text-center" style={{ width: 415 }}>
-                    Cozy Havens website is an online platform that allow users
-                    to rent accommodation, offering a user-friendly interface to
-                    discover, compare, and reserve accommodations in Yogyakarta.
+                    {item.desc}
                   </p>
-                  <p>Stack: React, Scss</p>
+                  <p>Stack: {item.stack}</p>
                   <Col style={{ marginTop: 8 }}>
-                    <Button
-                      variant="outline-primary"
-                      className="btn-project"
-                      style={{ marginRight: 15 }}
-                      href="https://www.figma.com/file/3VDpuKmf4RKkQ93R6UJigS/Website-CozyHavens?type=design&node-id=0%3A1&mode=design&t=9k7ZTIQRdOVE5ZnN-1"
-                    >
-                      Design
-                    </Button>
-                    <Button
-                      variant="outline-primary"
-                      className="btn-project"
-                      style={{ marginRight: 15 }}
-                      href="https://github.com/faruqalawy/Cozy-Havens"
-                    >
-                      Code
-                    </Button>
-                    <Button
-                      variant="outline-primary"
-                      className="btn-project"
-                      href="https://faruqalawy.github.io/Cozy-Havens/"
-                    >
-                      Live Demo
-                    </Button>
+                    {isShowed(item.designUrl) && (
+                      <Button
+                        variant="outline-primary"
+                        className="btn-project"
+                        style={{ marginRight: 15 }}
+                        href={item.designUrl}
+                      >
+                        Design
+                      </Button>
+                    )}
+                    {isShowed(item.codeUrl) && (
+                      <Button
+                        variant="outline-primary"
+                        className="btn-project"
+                        style={{ marginRight: 15 }}
+                        href={item.codeUrl}
+                      >
+                        Code
+                      </Button>
+                    )}
+                    {isShowed(item.liveUrl) && (
+                      <Button
+                        variant="outline-primary"
+                        className="btn-project"
+                        href={item.liveUrl}
+                      >
+                        Live Demo
+                      </Button>
+                    )}
                   </Col>
                 </Col>
                 <Col>
-                  <div className="project-image lg" />
+                <div style={{backgroundImage: `url(${item.imageUrl})`, backgroundSize: "cover"}} className={`project-image lg ${index % 2 === 0 ? "" : "reverse-version"}`} />
+
                 </Col>
               </Row>
-            </Card>;
-          })}
-          <div style={{ paddingBottom: 80 }} />
+            )}
+          </Card>
         </Col>
-      )}
+      ))}
     </Container>
   );
 }

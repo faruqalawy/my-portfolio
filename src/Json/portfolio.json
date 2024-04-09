@@ -35,21 +35,30 @@
       "publish": "DECEMBER 2023",
       "desc": "Cozy Havens website is an online platform that allow users to rent accommodation, offering a user-friendly interface to discover, compare, and reserve accommodations in Yogyakarta.",
       "stack": "React, Scss",
-      "imageUrl": "../../Assets/Images/fullpage-cozyhavens.webp"
+      "imageUrl": "/fullpage-cozyhavens.webp",
+      "designUrl": "https://www.figma.com/file/3VDpuKmf4RKkQ93R6UJigS/Website-CozyHavens?type=design&node-id=0%3A1&mode=design&t=9k7ZTIQRdOVE5ZnN-1",
+      "codeUrl": "https://github.com/faruqalawy/Cozy-Havens",
+      "liveUrl": "https://faruqalawy.github.io/Cozy-Havens/"
     },
     {
       "name": "My Portfolio",
       "publish": "JANUARY 2024",
-      "desc": "Cozy Havens website is an online platform that allow users to rent accommodation, offering a user-friendly interface to discover, compare, and reserve accommodations in Yogyakarta.",
+      "desc": "My Portfolio is an online website that display collection of my projects, ranging from personal to business project. ",
       "stack": "React, Bootstrap",
-      "imageUrl": "../../Assets/Images/fullpage-portfolio.png"
+      "imageUrl": "/fullpage-portfolio.png",
+      "designUrl": "https://www.figma.com/file/SvnMvk4n8WM3ukpTkpYwdP/Portfolio?type=design&t=bsGxTo40PNLIlJVN-6",
+      "codeUrl": "https://github.com/faruqalawy/my-portfolio",
+      "liveUrl": "https://faruqalawy.github.io/my-portfolio/"
     },
     {
       "name": "Lumat",
       "publish": "ON DEVELOPMENT",
-      "desc": "Cozy Havens website is an online platform that allow users to rent accommodation, offering a user-friendly interface to discover, compare, and reserve accommodations in Yogyakarta.",
+      "desc": "Lumat is an online platform that represents the brand \"LUMAT\". It provide information about profil, product, portfolio, up to contact for ordering or other business purpose.",
       "stack": "React, Tailwind",
-      "imageUrl": "../../Assets/Images/fullpage-lumat.png"
+      "imageUrl": "/fullpage-lumat.png",
+      "designUrl": "https://www.figma.com/file/w2kngxkb6nqoR1ZjfEhCje/Lumat-Project?type=design&t=bsGxTo40PNLIlJVN-6",
+      "codeUrl": "",
+      "liveUrl": ""
     }
   ]
 }
