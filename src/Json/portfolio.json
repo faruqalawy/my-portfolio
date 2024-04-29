@@ -50,7 +50,7 @@
     },
     {
       "name": "Lumat",
-      "publish": "ON DEVELOPMENT",
+      "publish": "APRIL 2024",
       "desc": "Lumat is an online platform that represents the brand \"LUMAT\". It provide information about profil, product, portfolio, up to contact for ordering or other business purpose.",
       "stack": "React, Tailwind",
       "designUrl": "https://www.figma.com/file/w2kngxkb6nqoR1ZjfEhCje/Lumat-Project?type=design&t=bsGxTo40PNLIlJVN-6",
