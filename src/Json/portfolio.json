@@ -13,7 +13,7 @@
       "key": "2"
     },
     {
-      "imageUrl": "/my-portfolio/BOOTSTRAP-SASS.svg",
+      "imageUrl": "/my-portfolio/BOOTSTRAP-TAILWIND.svg",
       "name": "bootstrap-and-sass-icon",
       "class": "stack-icon",
       "key": "3"
@@ -55,7 +55,7 @@
       "stack": "React, Tailwind",
       "designUrl": "https://www.figma.com/file/w2kngxkb6nqoR1ZjfEhCje/Lumat-Project?type=design&t=bsGxTo40PNLIlJVN-6",
       "codeUrl": "https://github.com/faruqalawy/lumat-project-2",
-      "liveUrl": "https://faruqalawy.github.io/lumat-project-2/#/"
+      "liveUrl": "https://faruqalawy.github.io/lumat-website-project/#/"
     }
   ]
 }
