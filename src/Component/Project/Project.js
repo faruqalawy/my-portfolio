@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Row, Col, Card, Button } from "react-bootstrap";
 
 import "./Project.css";
 
@@ -32,7 +32,7 @@ export default function Project() {
   const portoImages = [portoImage1, portoImage2, portoImage3];
 
   return (
-    <Container className="project" id="Project">
+    <div className="project custom-display" id="Project">
       <h1 className="text-center project-head section-title blue-color font-600">
         MY PROJECT
       </h1>
@@ -146,6 +146,6 @@ export default function Project() {
           </Card>
         </Col>
       ))}
-    </Container>
+    </div>
   );
 }

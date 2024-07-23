@@ -7,22 +7,28 @@
       "key": "1"
     },
     {
-      "imageUrl": "/my-portfolio/JS-REACT.svg",
-      "name": "js-and-react-icon",
+      "imageUrl": "/my-portfolio/JS-VUE.svg",
+      "name": "js-and-vue-icon",
       "class": "stack-icon",
       "key": "2"
+    },
+    {
+      "imageUrl": "/my-portfolio/REACT-NEXT.svg",
+      "name": "react-and-next-icon",
+      "class": "stack-icon",
+      "key": "3"
     },
     {
       "imageUrl": "/my-portfolio/BOOTSTRAP-TAILWIND.svg",
       "name": "bootstrap-and-sass-icon",
       "class": "stack-icon",
-      "key": "3"
+      "key": "4"
     },
     {
       "imageUrl": "/my-portfolio/FIGMA-GIT.svg",
       "name": "figma-and-git-icon",
       "class": "stack-icon",
-      "key": "4"
+      "key": "5"
     }
   ],
   "about": {

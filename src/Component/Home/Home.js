@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 import { TypeAnimation } from "react-type-animation";
 
@@ -29,7 +29,7 @@ export default function Content() {
   }, []);
 
   return (
-    <Container className="Home" id="Home">
+    <div className="Home custom-display" id="Home">
       {windowWidth < 1001 ? (
         <>
           <Col className="d-flex flex-column align-items-center">
@@ -98,9 +98,10 @@ export default function Content() {
         <>
           <Row className="align-items-center">
             <Col className="left-side">
-              <h2 className="hello-text">Hello, I'm</h2>
+              {/* <h2 className="hello-text">Hello, I'm</h2> */}
+              
               <h1 style={{ fontWeight: 600 }} className="name-text">
-                Faruq <span className="blue-color">Alawy</span>
+              Hello, I'm <span className="blue-color">Faruq Alawy Hudaya</span>
               </h1>
               <h2 className="skill-text">
                 <span>A </span>
@@ -157,6 +158,6 @@ export default function Content() {
           </Row>
         </>
       )}
-    </Container>
+    </div>
   );
 }

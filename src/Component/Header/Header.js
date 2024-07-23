@@ -3,7 +3,6 @@ import React from "react";
 import {
   Navbar,
   Nav,
-  Container,
   NavbarBrand,
   NavbarOffcanvas,
   OffcanvasHeader,
@@ -17,7 +16,7 @@ import "./Header.css"
 export default function Header() {
   return (
     <Navbar collapseOnSelect sticky="top" className="Nav" expand="lg">
-      <Container>
+      <div className="custom-display header-display">
         <NavbarBrand className="navbar-brand">
           Faruq<span className="blue-color">.dev</span>
         </NavbarBrand>
@@ -47,7 +46,8 @@ export default function Header() {
             </Nav>
           </OffcanvasBody>
         </NavbarOffcanvas>
-      </Container>
+      </div>
+      
     </Navbar>
   );
 }

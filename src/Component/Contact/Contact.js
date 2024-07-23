@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Container, Row, Col, Form, Button, Image } from "react-bootstrap";
+import { Row, Col, Image } from "react-bootstrap";
 
 import UpIcon from "../../Assets/Icons/up-icon.svg";
 
@@ -60,9 +60,6 @@ const formRef = useRef(null); {/* this ref used by this function and emailjs fun
     }
   }
 
-  {
-    /* function to connect contact form input with email using EmailJS library */
-  }
   {/* this function using the same ref with spreadsheet function above (using formRef) */ }
   const sendEmail = (e) => {
     e.preventDefault();
@@ -76,7 +73,7 @@ const formRef = useRef(null); {/* this ref used by this function and emailjs fun
   };
 
   return (
-    <Container className="contact" id="Contact">
+    <div className="contact custom-display" id="Contact">
       <h1 className="text-center contact-head section-title blue-color font-600">
         GET IN TOUCH
       </h1>
@@ -249,6 +246,6 @@ const formRef = useRef(null); {/* this ref used by this function and emailjs fun
       <a href="#Home">
         <Image className="up-icon" src={UpIcon} alt="up-to-home-icon"></Image>
       </a>
-    </Container>
+    </div>
   );
 }
