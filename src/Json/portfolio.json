@@ -1,96 +1,34 @@
 {
   "stack": [
     {
-      "imageUrl": "/my-portfolio/HTML-CSS.svg",
-      "name": "html-and-css-icon",
+      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/v1/my-portfolio/HTML-CSS",
+      "name": "HTML and CSS",
       "class": "stack-icon",
       "key": "1"
     },
     {
-      "imageUrl": "/my-portfolio/JS-VUE.svg",
-      "name": "js-and-vue-icon",
+      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/v1/my-portfolio/JS-VUE",
+      "name": "JavaScript and Vue",
       "class": "stack-icon",
       "key": "2"
     },
     {
-      "imageUrl": "/my-portfolio/REACT-NEXT.svg",
-      "name": "react-and-next-icon",
+      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/v1/my-portfolio/REACT-NEXT",
+      "name": "React and Next",
       "class": "stack-icon",
       "key": "3"
     },
     {
-      "imageUrl": "/my-portfolio/BOOTSTRAP-TAILWIND.svg",
-      "name": "bootstrap-and-sass-icon",
+      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/v1/my-portfolio/BOOTSTRAP-TAILWIND",
+      "name": "Bootstrap and Tailwind",
       "class": "stack-icon",
       "key": "4"
     },
     {
-      "imageUrl": "/my-portfolio/FIGMA-GIT.svg",
-      "name": "figma-and-git-icon",
+      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/v1/my-portfolio/FIGMA-GIT",
+      "name": "Figma and Git",
       "class": "stack-icon",
       "key": "5"
-    }
-  ],
-  "stackLarge": [
-    {
-      "imageUrl": "/my-portfolio/HTML.svg",
-      "name": "HTML",
-      "class": "stack-icon-large",
-      "key": "1"
-    },
-    {
-      "imageUrl": "/my-portfolio/CSS.svg",
-      "name": "CSS",
-      "class": "stack-icon-large",
-      "key": "2"
-    },
-    {
-      "imageUrl": "/my-portfolio/JAVASCRIPT.svg",
-      "name": "JavaScript",
-      "class": "stack-icon-large",
-      "key": "3"
-    },
-    {
-      "imageUrl": "/my-portfolio/VUE.svg",
-      "name": "Vue",
-      "class": "stack-icon-large",
-      "key": "4"
-    },
-    {
-      "imageUrl": "/my-portfolio/REACT.svg",
-      "name": "React",
-      "class": "stack-icon-large",
-      "key": "5"
-    },
-    {
-      "imageUrl": "/my-portfolio/NEXT.svg",
-      "name": "Next",
-      "class": "stack-icon-large",
-      "key": "6"
-    },
-    {
-      "imageUrl": "/my-portfolio/BOOTSTRAP.svg",
-      "name": "Bootstrap",
-      "class": "stack-icon-large",
-      "key": "7"
-    },
-    {
-      "imageUrl": "/my-portfolio/TAILWIND.svg",
-      "name": "Tailwind",
-      "class": "stack-icon-large",
-      "key": "8"
-    },
-    {
-      "imageUrl": "/my-portfolio/FIGMA.svg",
-      "name": "Figma",
-      "class": "stack-icon-large",
-      "key": "9"
-    }, 
-    {
-      "imageUrl": "/my-portfolio/GIT.svg",
-      "name": "Git",
-      "class": "stack-icon-large",
-      "key": "10"
     }
   ],
   "about": {
@@ -105,7 +43,8 @@
       "stack": "React, Scss",
       "designUrl": "https://www.figma.com/file/3VDpuKmf4RKkQ93R6UJigS/Website-CozyHavens?type=design&node-id=0%3A1&mode=design&t=9k7ZTIQRdOVE5ZnN-1",
       "codeUrl": "https://github.com/faruqalawy/Cozy-Havens",
-      "liveUrl": "https://faruqalawy.github.io/Cozy-Havens/"
+      "liveUrl": "https://faruqalawy.github.io/Cozy-Havens/",
+      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/f_auto,q_auto/v1/my-portfolio/fullpage-cozy-havens"
     },
     {
       "name": "My Portfolio",
@@ -113,8 +52,9 @@
       "desc": "My Portfolio is an online website that display collection of my projects, ranging from personal to business project. ",
       "stack": "React, Bootstrap",
       "designUrl": "https://www.figma.com/file/SvnMvk4n8WM3ukpTkpYwdP/Portfolio?type=design&t=bsGxTo40PNLIlJVN-6",
-      "codeUrl": "https://github.com/faruqalawy/my-portfolio",
-      "liveUrl": "https://faruqalawy.github.io/my-portfolio/"
+      "codeUrl": "https://github.com/faruqalawymy-portfolio",
+      "liveUrl": "https://faruqalawy.com/",
+      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/f_auto,q_auto/v1/my-portfolio/fullpage-portfolio"
     },
     {
       "name": "Lumat",
@@ -123,7 +63,8 @@
       "stack": "React, Tailwind",
       "designUrl": "https://www.figma.com/file/w2kngxkb6nqoR1ZjfEhCje/Lumat-Project?type=design&t=bsGxTo40PNLIlJVN-6",
       "codeUrl": "https://github.com/faruqalawy/lumat-website-project",
-      "liveUrl": "https://faruqalawy.github.io/lumat-website-project/"
+      "liveUrl": "https://faruqalawy.github.io/lumat-website-project/",
+      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/f_auto,q_auto/v1/my-portfolio/fullpage-lumat"
     },
     {
       "name": "Digitronix",
@@ -132,7 +73,9 @@
       "stack": "Vue, Tailwind",
       "designUrl": "https://www.figma.com/design/O9rkzJgHXJAvqxSSS98ndW/Digitronix-Project?t=99ojz8FMoQQUUDUL-0",
       "codeUrl": "https://github.com/faruqalawy/digitronix-vue-project",
-      "liveUrl": "https://digitronix-vue-project.vercel.app/"
+      "liveUrl": "https://digitronix-vue-project.vercel.app/",
+      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/f_auto,q_auto/v1/my-portfolio/fullpage-digitronix"
+      
     },
     {
       "name": "Lumat 2.0",
@@ -141,7 +84,8 @@
       "stack": "Next, Tailwind",
       "designUrl": "https://www.figma.com/file/w2kngxkb6nqoR1ZjfEhCje/Lumat-Project?type=design&t=bsGxTo40PNLIlJVN-6",
       "codeUrl": "https://github.com/faruqalawy/lumat-nextjs-project",
-      "liveUrl": "https://lumat.id/"
+      "liveUrl": "https://lumat.id/",
+      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/f_auto,q_auto/v1/my-portfolio/fullpage-lumat"
     }
   ]
 }

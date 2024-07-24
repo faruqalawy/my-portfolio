@@ -1,8 +1,5 @@
 import { Tilt } from "react-tilt";
 
-import About1 from "../../Assets/Images/about-1.webp";
-import About2 from "../../Assets/Images/about-2.webp";
-
 import "./AboutImage.css"
 
 const defaultOptions = {
@@ -21,12 +18,12 @@ const AboutImage = () => {
   return (
     <Tilt options={defaultOptions} className='tilt-container' >
         <img
-          src={About1}
+          src="https://res.cloudinary.com/dnwvsqlh1/image/upload/f_auto,q_auto/v1/my-portfolio/about-image-1"
           alt="me-1"
           className="right-image"
         />
         <img
-          src={About2}
+          src="https://res.cloudinary.com/dnwvsqlh1/image/upload/f_auto,q_auto/v1/my-portfolio/about-image-2"
           alt="me-2"
           className="left-image"
         />

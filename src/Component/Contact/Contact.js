@@ -139,29 +139,33 @@ const formRef = useRef(null); {/* this ref used by this function and emailjs fun
                 }}
                 className="flex-grow-1"
               >
-                <label htmlFor="name"></label>
+                <label htmlFor="Name"></label>
                 <input
                   type="text"
                   id="Name"
                   name="user_name"
                   placeholder="Your Name *"
                   className="input-box"
+                  autoComplete="true"
                 />
               </div>
               <div className="flex-grow-1">
-                <label htmlFor="name"></label>
+                <label htmlFor="Email"></label>
                 <input
                   type="email"
+                  id="Email"
                   name="user_email"
                   placeholder="Your Email *"
                   className="input-box"
+                  autoComplete="true"
                 />
               </div>
             </div>
             <div>
-              <label htmlFor="name"></label>
+              <label htmlFor="Message"></label>
               <textarea
                 type="text"
+                id="Message"
                 name="message"
                 placeholder="Your Message Here *"
                 className="textarea-box"
@@ -189,57 +193,6 @@ const formRef = useRef(null); {/* this ref used by this function and emailjs fun
               )}
             </div>
           </form>
-
-          {/* <Form className="form" ref={formRef} onSubmit={handleSubmit}>
-            <div
-              className={windowWidth > 500 ? "d-flex flex-row" : ""}
-              style={{ marginBottom: 15, marginTop: 12 }}
-            >
-              <Form.Group
-                controlId="exampleForm.ControlInput1"
-                style={{
-                  marginRight: windowWidth > 500 ? 15 : 0,
-                  marginBottom: windowWidth > 500 ? 0 : 15,
-                }}
-                className="flex-grow-1"
-              >
-                <Form.Control
-                  className="input"
-                  type="text"
-                  placeholder="Name*"
-                  name="Name"
-                />
-              </Form.Group>
-              <Form.Group
-                controlId="exampleForm.ControlInput1"
-                className="flex-grow-1"
-              >
-                <Form.Control
-                  className="input"
-                  type="email"
-                  placeholder="Email*"
-                  name="Email"
-                />
-              </Form.Group>
-            </div>
-            <Form.Group
-              className="text-input"
-              controlId="exampleForm.ControlTextarea1"
-            >
-              <Form.Control
-                as="textarea"
-                rows={9}
-                placeholder="Your Message Here*"
-                name="Message"
-              />
-            </Form.Group>
-          </Form>
-          <Button
-            variant="primary"
-            className="btn-contact font-600"
-            type="submit"
-            value="SEND MESSAGE"
-          /> */}
         </Col>
       </Row>
 

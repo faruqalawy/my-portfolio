@@ -5,11 +5,6 @@ import "./Project.css";
 
 import jsonPortfolio from "../../Json/portfolio.json";
 
-import portoImage1 from "../../Assets/Images/fullpage-cozyhavens.webp";
-import portoImage2 from "../../Assets/Images/fullpage-portfolio.webp";
-import portoImage3 from "../../Assets/Images/fullpage-lumat.webp";
-import portoImage4 from "../../Assets/Images/fullpage-digitronix.png"
-
 export default function Project() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -30,8 +25,6 @@ export default function Project() {
     return url ? true : false;
   };
 
-  const portoImages = [portoImage1, portoImage2, portoImage3, portoImage4, portoImage3];
-
   return (
     <div className="project custom-display" id="Project">
       <h1 className="text-center project-head section-title blue-color font-600">
@@ -44,7 +37,7 @@ export default function Project() {
               <Row className="d-flex flex-column ">
                 <Col className="d-flex ">
                 <div className={`project-image sm ${index % 2 === 0 ? "" : "reverse-version"}`}>
-                <img src={portoImages[index]} alt={item.name} />
+                <img src={item.imageUrl} alt={item.name} />
                 </div>
                 </Col>
                 <Col className="d-flex flex-column align-items-center justify-content-center">
@@ -138,7 +131,7 @@ export default function Project() {
                 </Col>
                 <Col>
                 <div className={`project-image lg ${index % 2 === 0 ? "" : "reverse-version"}`}>
-                <img src={portoImages[index]} alt={item.name} />
+                <img src={item.imageUrl} alt={item.name} />
                 </div>
 
                 </Col>

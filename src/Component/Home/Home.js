@@ -65,6 +65,7 @@ export default function Content() {
                 <a
                   rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/faruq-alawy-533199217/"
+                  name="linkedin"
                 >
                   <img
                     src={LinkedinIcon}
@@ -76,6 +77,7 @@ export default function Content() {
                 <a
                   rel="noopener noreferrer"
                   href="https://github.com/faruqalawy"
+                  name="github"
                 >
                   <FontAwesomeIcon
                     icon={faGithub}
@@ -124,6 +126,7 @@ export default function Content() {
                 <a
                   rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/faruq-alawy-533199217/"
+                  name="linkedin"
                 >
                   <img
                     src={LinkedinIcon}
@@ -135,6 +138,7 @@ export default function Content() {
                 <a
                   rel="noopener noreferrer"
                   href="https://github.com/faruqalawy"
+                  name="github"
                 >
                   <FontAwesomeIcon
                     icon={faGithub}
