@@ -57,7 +57,7 @@ export default function About( props ) {
               </Col>
               <Col>
                 <p className="font-600 title">STACK</p>
-                <p>Html, Css, JS, React, Bootstrap, Tailwind, Figma, Git</p>
+                <p>Html, Css, JavaScript, Vue, React, Next, Bootstrap, Tailwind, Figma, Git</p>
               </Col>
             </Row>
             <Row className="bio-sm">
@@ -106,7 +106,7 @@ export default function About( props ) {
               </Col>
               <Col>
                 <p className="font-600 title">STACK</p>
-                <p className="description-text">Html, Css, JS, React, Bootstrap, Tailwind, Figma, Git</p>
+                <p className="description-text">Html, Css, JavaScript, Vue, React, Next, Bootstrap, Tailwind, Figma, Git</p>
               </Col>
             </Row>
             <Row>

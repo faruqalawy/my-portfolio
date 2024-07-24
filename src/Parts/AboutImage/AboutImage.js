@@ -22,12 +22,12 @@ const AboutImage = () => {
     <Tilt options={defaultOptions} className='tilt-container' >
         <img
           src={About1}
-          alt="my-picture-in-bisma-mountain"
+          alt="me-1"
           className="right-image"
         />
         <img
           src={About2}
-          alt="my-picture-in-tebing-keraton"
+          alt="me-2"
           className="left-image"
         />
     </Tilt>

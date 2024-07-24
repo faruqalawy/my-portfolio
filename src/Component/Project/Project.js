@@ -8,6 +8,7 @@ import jsonPortfolio from "../../Json/portfolio.json";
 import portoImage1 from "../../Assets/Images/fullpage-cozyhavens.webp";
 import portoImage2 from "../../Assets/Images/fullpage-portfolio.webp";
 import portoImage3 from "../../Assets/Images/fullpage-lumat.webp";
+import portoImage4 from "../../Assets/Images/fullpage-digitronix.png"
 
 export default function Project() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -29,7 +30,7 @@ export default function Project() {
     return url ? true : false;
   };
 
-  const portoImages = [portoImage1, portoImage2, portoImage3];
+  const portoImages = [portoImage1, portoImage2, portoImage3, portoImage4, portoImage3];
 
   return (
     <div className="project custom-display" id="Project">

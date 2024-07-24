@@ -101,7 +101,7 @@ export default function Content() {
               {/* <h2 className="hello-text">Hello, I'm</h2> */}
               
               <h1 style={{ fontWeight: 600 }} className="name-text">
-              Hello, I'm <span className="blue-color">Faruq Alawy Hudaya</span>
+              Hello, I'm <span className="blue-color">Faruq Alawy</span>
               </h1>
               <h2 className="skill-text">
                 <span>A </span>

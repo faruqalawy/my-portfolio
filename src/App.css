@@ -10,7 +10,7 @@
 }
 
 .custom-display {
-  max-width: 70rem;
+  max-width: 65rem;
   padding-left: 1.25rem; /* px-5 */
   padding-right: 1.25rem; /* px-5 */
   margin-left: auto;
@@ -25,13 +25,12 @@
   }
 }
 
-/* Custom rule specifically for navigation */
+/* Custom rule specifically for navigation max-width */
 .header-display {
-  max-width: 90rem;
+  max-width: 80rem;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  align-items: center;
 }
 
 .gray-background {

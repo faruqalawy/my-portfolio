@@ -31,15 +31,77 @@
       "key": "5"
     }
   ],
+  "stackLarge": [
+    {
+      "imageUrl": "/my-portfolio/HTML.svg",
+      "name": "HTML",
+      "class": "stack-icon-large",
+      "key": "1"
+    },
+    {
+      "imageUrl": "/my-portfolio/CSS.svg",
+      "name": "CSS",
+      "class": "stack-icon-large",
+      "key": "2"
+    },
+    {
+      "imageUrl": "/my-portfolio/JAVASCRIPT.svg",
+      "name": "JavaScript",
+      "class": "stack-icon-large",
+      "key": "3"
+    },
+    {
+      "imageUrl": "/my-portfolio/VUE.svg",
+      "name": "Vue",
+      "class": "stack-icon-large",
+      "key": "4"
+    },
+    {
+      "imageUrl": "/my-portfolio/REACT.svg",
+      "name": "React",
+      "class": "stack-icon-large",
+      "key": "5"
+    },
+    {
+      "imageUrl": "/my-portfolio/NEXT.svg",
+      "name": "Next",
+      "class": "stack-icon-large",
+      "key": "6"
+    },
+    {
+      "imageUrl": "/my-portfolio/BOOTSTRAP.svg",
+      "name": "Bootstrap",
+      "class": "stack-icon-large",
+      "key": "7"
+    },
+    {
+      "imageUrl": "/my-portfolio/TAILWIND.svg",
+      "name": "Tailwind",
+      "class": "stack-icon-large",
+      "key": "8"
+    },
+    {
+      "imageUrl": "/my-portfolio/FIGMA.svg",
+      "name": "Figma",
+      "class": "stack-icon-large",
+      "key": "9"
+    }, 
+    {
+      "imageUrl": "/my-portfolio/GIT.svg",
+      "name": "Git",
+      "class": "stack-icon-large",
+      "key": "10"
+    }
+  ],
   "about": {
     "bio": "A dedicated Front-end Developer Based in Yogyakarta, Indonesia",
-    "desc": "I am a self-taught web developer proficient in creating responsive websites. My creativity is reflected in aesthetically pleasing designs, while my passion for learning and quick adaptability allows me to stay abreast of technological developments. I have expertise in HTML, CSS, JavaScript, React.js, Bootstrap, Sass, Figma and Git, enhancing my ability to deliver comprehensive and visually appealing web solutions."
+    "desc": "I am a self-taught web developer proficient in creating responsive websites. My creativity is reflected in aesthetically pleasing designs, while my passion for learning and quick adaptability allows me to stay abreast of technological developments. I have expertise in Html, Css, JavaScript, Vue, React, Next, Bootstrap, Tailwind, Figma, Git, enhancing my ability to deliver comprehensive and visually appealing web solutions."
   },
   "project": [
     {
       "name": "Cozy Havens",
       "publish": "DECEMBER 2023",
-      "desc": "Cozy Havens website is an online platform that allow users to rent accommodation, offering a user-friendly interface to discover, compare, and reserve accommodations in Yogyakarta.",
+      "desc": "The Cozy Havens website is an online platform that allows users to rent accommodations, offering a user-friendly interface to discover, compare, and reserve places in Yogyakarta. This website mirrors a project from an online course with slightly different design and content.",
       "stack": "React, Scss",
       "designUrl": "https://www.figma.com/file/3VDpuKmf4RKkQ93R6UJigS/Website-CozyHavens?type=design&node-id=0%3A1&mode=design&t=9k7ZTIQRdOVE5ZnN-1",
       "codeUrl": "https://github.com/faruqalawy/Cozy-Havens",
@@ -57,10 +119,28 @@
     {
       "name": "Lumat",
       "publish": "APRIL 2024",
-      "desc": "Lumat is an online platform that represents the brand \"LUMAT\". It provide information about profil, product, portfolio, up to contact for ordering or other business purpose.",
+      "desc": "Lumat is an online platform that represents the brand \"LUMAT\". It provide information about profil, product, portfolio, up to contact for ordering or other business purpose. This was my first real project",
       "stack": "React, Tailwind",
       "designUrl": "https://www.figma.com/file/w2kngxkb6nqoR1ZjfEhCje/Lumat-Project?type=design&t=bsGxTo40PNLIlJVN-6",
-      "codeUrl": "https://github.com/faruqalawy/lumat-project-2",
+      "codeUrl": "https://github.com/faruqalawy/lumat-website-project",
+      "liveUrl": "https://faruqalawy.github.io/lumat-website-project/"
+    },
+    {
+      "name": "Digitronix",
+      "publish": "JUNE 2024",
+      "desc": "Digitronix is an e-commerce site for electronic products. With a user-friendly interface, customers can easily browse, compare, and purchase electronics. Digitronix offers detailed product descriptions and secure payment options, making it one-stop destination for electronics.",
+      "stack": "Vue, Tailwind",
+      "designUrl": "https://www.figma.com/design/O9rkzJgHXJAvqxSSS98ndW/Digitronix-Project?t=99ojz8FMoQQUUDUL-0",
+      "codeUrl": "https://github.com/faruqalawy/digitronix-vue-project",
+      "liveUrl": "https://digitronix-vue-project.vercel.app/"
+    },
+    {
+      "name": "Lumat 2.0",
+      "publish": "JULY 2024",
+      "desc": "This website was migrated from Lumat 1.0. It is built with Next.js and utilizes cloud data storage to enhance website performance and SEO optimization. Additionally, the code features an improved file structure and cleaner code.",
+      "stack": "Next, Tailwind",
+      "designUrl": "https://www.figma.com/file/w2kngxkb6nqoR1ZjfEhCje/Lumat-Project?type=design&t=bsGxTo40PNLIlJVN-6",
+      "codeUrl": "https://github.com/faruqalawy/lumat-nextjs-project",
       "liveUrl": "https://lumat.id/"
     }
   ]
