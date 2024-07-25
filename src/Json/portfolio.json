@@ -52,14 +52,12 @@
       "desc": "My Portfolio is an online website that display collection of my projects, ranging from personal to business project. ",
       "stack": "React, Bootstrap",
       "designUrl": "https://www.figma.com/file/SvnMvk4n8WM3ukpTkpYwdP/Portfolio?type=design&t=bsGxTo40PNLIlJVN-6",
-      "codeUrl": "https://github.com/faruqalawymy-portfolio",
-      "liveUrl": "https://faruqalawy.com/",
       "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/f_auto,q_auto/v1/my-portfolio/fullpage-portfolio"
     },
     {
-      "name": "Lumat",
+      "name": "Lumat 1.0",
       "publish": "APRIL 2024",
-      "desc": "Lumat is an online platform that represents the brand \"LUMAT\". It provides comprehensive information about the profile, products, portfolio, and contact details for ordering or other business purposes. This was my first professional project, commissioned and compensated for my development services.",
+      "desc": "Lumat is an online platform that represents the brand \"LUMAT\". It provides comprehensive information about the profile, products, portfolio, and contact details for ordering or other business purposes. This was my professional project",
       "stack": "React, Tailwind",
       "designUrl": "https://www.figma.com/file/w2kngxkb6nqoR1ZjfEhCje/Lumat-Project?type=design&t=bsGxTo40PNLIlJVN-6",
       "codeUrl": "https://github.com/faruqalawy/lumat-website-project",
