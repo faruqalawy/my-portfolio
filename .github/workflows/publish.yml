@@ -1,3 +1,5 @@
+# workflow CI/CD ini masih belum berfungsi sebagaimana mestinya
+# coba nanti perbaiki lagi
 name: Generate a build and push to another branch
 
 on:

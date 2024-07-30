@@ -11,7 +11,7 @@ import {
   OffcanvasBody,
 } from "react-bootstrap";
 
-import "./Header.css"
+import "./Header.css";
 
 export default function Header() {
   return (
@@ -32,22 +32,26 @@ export default function Header() {
             ></OffcanvasTitle>
           </OffcanvasHeader>
           <OffcanvasBody className="offcanvas-body">
-            <Nav className="nav justify-content-end flex-grow-1 pe-3" id="navbar">
-              <Nav.Link  href="#Home" className="offcanvas-case">Home</Nav.Link>
-              <Nav.Link  href="#About" className="ml-5 offcanvas-case">
+            <Nav
+              className="nav justify-content-end flex-grow-1 pe-3"
+              id="navbar"
+            >
+              <Nav.Link href="#Home" className="offcanvas-case">
+                Home
+              </Nav.Link>
+              <Nav.Link href="#About" className="ml-5 offcanvas-case">
                 About
               </Nav.Link>
-              <Nav.Link  href="#Project" className="ml-5 offcanvas-case">
+              <Nav.Link href="#Project" className="ml-5 offcanvas-case">
                 Project
               </Nav.Link>
-              <Nav.Link  href="#Contact" className="ml-5 offcanvas-case">
+              <Nav.Link href="#Contact" className="ml-5 offcanvas-case">
                 Contact
               </Nav.Link>
             </Nav>
           </OffcanvasBody>
         </NavbarOffcanvas>
       </div>
-      
     </Navbar>
   );
 }
