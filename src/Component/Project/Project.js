@@ -57,6 +57,7 @@ export default function Project() {
                         variant="outline-primary"
                         className="btn-project"
                         href={item.designUrl}
+                        target="_blank" rel="noopener noreferrer"
                       >
                         Design
                       </Button>
@@ -66,6 +67,7 @@ export default function Project() {
                         variant="outline-primary"
                         className="btn-project"
                         href={item.codeUrl}
+                        target="_blank" rel="noopener noreferrer"
                       >
                         Code
                       </Button>
@@ -75,6 +77,7 @@ export default function Project() {
                         variant="outline-primary"
                         className="btn-project btn-3"
                         href={item.liveUrl}
+                        target="_blank" rel="noopener noreferrer"
                       >
                         Live Demo
                       </Button>
@@ -104,6 +107,7 @@ export default function Project() {
                         className="btn-project"
                         style={{ marginRight: 15 }}
                         href={item.designUrl}
+                        target="_blank" rel="noopener noreferrer"
                       >
                         Design
                       </Button>
@@ -114,6 +118,7 @@ export default function Project() {
                         className="btn-project"
                         style={{ marginRight: 15 }}
                         href={item.codeUrl}
+                        target="_blank" rel="noopener noreferrer"
                       >
                         Code
                       </Button>
@@ -123,6 +128,7 @@ export default function Project() {
                         variant="outline-primary"
                         className="btn-project"
                         href={item.liveUrl}
+                        target="_blank" rel="noopener noreferrer"
                       >
                         Live Demo
                       </Button>
