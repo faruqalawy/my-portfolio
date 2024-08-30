@@ -1,5 +1,5 @@
 /* styling for STACK LARGE */
-.Stack {
+/* .Stack {
   .stack {
     margin-top: -16px;
   }
@@ -11,6 +11,7 @@
       height: fit-content;
       font-size: clamp(22px, 22px, 24px);
       white-space: nowrap;
+      margin-bottom: 50px;
     }
 
     .lg {
@@ -21,12 +22,20 @@
 
     .icon {
       margin-right: 40px;
+      margin-bottom: 35px; 
     }
-  }
 
-  .icon-lg {
-    height: 55px;
-    width: auto;
+    .icon-lg {
+      height: 180px;
+      width: auto;
+      display: flex;
+      flex-wrap: wrap; 
+    }
+
+    .stack-container {
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   .stack-icon {
@@ -41,7 +50,6 @@
   }
 }
 
-/* styling for STACK SMALL */
 .Stack {
   .content {
     .sm {
@@ -53,24 +61,68 @@
 
     .icon-sm {
       .stack-icon {
+        transition: transform 0.4s ease;
         margin-bottom: 35px;
         margin-left: 8px;
         margin-right: 8px;
         height: 50px;
         width: auto;
         object-fit: contain;
+
+        &:hover {
+          transform: translateY(-1em);
+        }
       }
     }
   }
 
-  .carousel-container {
-    margin: 30px 0 30px 0;
-  }
 }
 
 @media (max-width: 767px) {
   .icon-container {
-    margin-right: 0; /* Menghapus margin saat lebar layar mengecil */
-    margin-bottom: 10px; /* Memberikan jarak antar icon saat ada di baris baru */
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+} */
+
+.Stack {
+  .tech-text {
+    display: inline-block;
+    max-width: fit-content;
+    height: fit-content;
+    font-size: clamp(22px, 22px, 24px);
+    white-space: nowrap;
+    margin-bottom: 50px;
+  }
+
+  .content {
+    .sm {
+      border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+      padding: 5px;
+      margin-bottom: clamp(35px, 40px, 45px);
+      margin-top: clamp(50px, 55px, 60px);
+    }
+
+    .icon-sm {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 2vw;
+      column-gap: 40px;
+
+      .icon {
+        margin-bottom: 35px; 
+      }
+      
+      .stack-icon {
+        transition: transform 0.4s ease;
+        height: 50px;
+        width: auto;
+        object-fit: contain;
+
+        &:hover {
+          transform: translateY(-1em);
+        }
+      }
+    }
   }
 }

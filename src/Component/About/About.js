@@ -4,9 +4,6 @@ import { Row, Col } from "react-bootstrap";
 import "./About.css"
 
 import AboutImage from "../../Parts/AboutImage/AboutImage";
-import Stack from "../../Parts/Stack/Stack";
-
-import portfolio from "../../Json/portfolio.json";
 
 export default function About( props ) {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -57,7 +54,7 @@ export default function About( props ) {
               </Col>
               <Col>
                 <p className="font-600 title">STACK</p>
-                <p>Html, Css, JavaScript, Vue, React, Next, Bootstrap, Tailwind, Figma, Git</p>
+                <p>Html, Css, JavaScript, Vue, React, Next, Node, Express, MongoDB, Bootstrap, Tailwind, Figma, Git, and Linux.</p>
               </Col>
             </Row>
             <Row className="bio-sm">
@@ -74,7 +71,7 @@ export default function About( props ) {
         </Col>
       ) : (
         <>
-        <Stack data={portfolio.stack} />
+        {/* <Stack data={portfolio.stack} /> */}
         <Row style={{ paddingTop: 45, marginTop: 85 }} id="About">
           <Col style={{ maxWidth: 425, padding: 0, marginBottom: 70 }}>
             <AboutImage />
@@ -106,7 +103,7 @@ export default function About( props ) {
               </Col>
               <Col>
                 <p className="font-600 title">STACK</p>
-                <p className="description-text">Html, Css, JavaScript, Vue, React, Next, Bootstrap, Tailwind, Figma, Git</p>
+                <p className="description-text">Html, Css, JavaScript, Vue, React, Next, Node, Express, MongoDB, Bootstrap, Tailwind, Figma, Git, and Linux.</p>
               </Col>
             </Row>
             <Row>

@@ -48,6 +48,10 @@ export default function Content() {
                 <span>A </span>
                 <TypeAnimation
                   sequence={[
+                    "Full Stack Developer",
+                    1000,
+                    "Back-End Developer",
+                    1000,
                     "Front-End Developer",
                     1000,
                     "Web Developer",
@@ -109,6 +113,10 @@ export default function Content() {
                 <span>A </span>
                 <TypeAnimation
                   sequence={[
+                    "Full Stack Developer",
+                    1000,
+                    "Back-End Developer",
+                    1000,
                     "Front-End Developer",
                     1000,
                     "Web Developer",
@@ -159,6 +167,9 @@ export default function Content() {
               role="img" // Atribut role="img" menandakan bahwa elemen ini adalah gambar
               aria-label="Main Home Image" // Atribut aria-label berisi deskripsi alternatif
             ></div>
+
+<Stack data={portfolio.stack} />
+
           </Row>
         </>
       )}
