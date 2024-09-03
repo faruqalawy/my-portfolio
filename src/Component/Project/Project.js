@@ -40,7 +40,7 @@ export default function Project() {
                 <img src={item.imageUrl} alt={item.name} />
                 </div>
                 </Col>
-                <Col className="d-flex flex-column align-items-center justify-content-center">
+                <Col className="d-flex flex-column align-items-center justify-content-center text-center ">
                   <h1 className="font-600 project-title">
                     {item.name}{" "}
                     <span className="project-year">
@@ -49,7 +49,7 @@ export default function Project() {
                       {")"}
                     </span>
                   </h1>
-                  <p className="text-center project-desc-sm">{item.desc}</p>
+                  <p className="project-desc-sm">{item.desc}</p>
                   <p>Stack: {item.stack}</p>
                   <Row className="btn-container d-flex">
                     {isShowed(item.designUrl) && (
