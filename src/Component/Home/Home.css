@@ -1,9 +1,5 @@
 .Home {
   .left-side {
-    .hello-text {
-      font-size: clamp(30px, 5vw, 40px);
-    }
-
     .name-text {
       font-size: clamp(45px, 8vw, 65px);
     }
@@ -30,11 +26,11 @@
   }
 
   .blob {
-    background-image: url(../../Assets/Images/myPicture_1.webp);
-    width: min(80vw, 500px);
-    height: min(80vw, 500px);
+    background-image: url(https://res.cloudinary.com/dnwvsqlh1/image/upload/f_auto,q_auto/v1/my-portfolio/home-image);
+    width: min(80vw, 375px);
+    height: min(80vw, 375px);
     padding: 0;
-    margin-bottom: max(35px, 7vw);
+    margin-bottom: max(35px, 4vw);
     background-size: cover;
     background-position: center center;
     box-shadow: 0 5px 5px 5px rgba(16, 96, 238, 0.3);

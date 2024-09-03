@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 import { TypeAnimation } from "react-type-animation";
 
@@ -29,7 +29,7 @@ export default function Content() {
   }, []);
 
   return (
-    <Container className="Home" id="Home">
+    <div className="Home custom-display" id="Home">
       {windowWidth < 1001 ? (
         <>
           <Col className="d-flex flex-column align-items-center">
@@ -48,6 +48,10 @@ export default function Content() {
                 <span>A </span>
                 <TypeAnimation
                   sequence={[
+                    "Full Stack Developer",
+                    1000,
+                    "Back-End Developer",
+                    1000,
                     "Front-End Developer",
                     1000,
                     "Web Developer",
@@ -65,6 +69,7 @@ export default function Content() {
                 <a
                   rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/faruq-alawy-533199217/"
+                  name="linkedin"
                 >
                   <img
                     src={LinkedinIcon}
@@ -76,6 +81,7 @@ export default function Content() {
                 <a
                   rel="noopener noreferrer"
                   href="https://github.com/faruqalawy"
+                  name="github"
                 >
                   <FontAwesomeIcon
                     icon={faGithub}
@@ -98,14 +104,19 @@ export default function Content() {
         <>
           <Row className="align-items-center">
             <Col className="left-side">
-              <h2 className="hello-text">Hello, I'm</h2>
+              {/* <h2 className="hello-text">Hello, I'm</h2> */}
+              
               <h1 style={{ fontWeight: 600 }} className="name-text">
-                Faruq <span className="blue-color">Alawy</span>
+              Hello, I'm <span className="blue-color">Faruq Alawy</span>
               </h1>
               <h2 className="skill-text">
                 <span>A </span>
                 <TypeAnimation
                   sequence={[
+                    "Full Stack Developer",
+                    1000,
+                    "Back-End Developer",
+                    1000,
                     "Front-End Developer",
                     1000,
                     "Web Developer",
@@ -123,6 +134,7 @@ export default function Content() {
                 <a
                   rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/faruq-alawy-533199217/"
+                  name="linkedin"
                 >
                   <img
                     src={LinkedinIcon}
@@ -134,6 +146,7 @@ export default function Content() {
                 <a
                   rel="noopener noreferrer"
                   href="https://github.com/faruqalawy"
+                  name="github"
                 >
                   <FontAwesomeIcon
                     icon={faGithub}
@@ -154,9 +167,12 @@ export default function Content() {
               role="img" // Atribut role="img" menandakan bahwa elemen ini adalah gambar
               aria-label="Main Home Image" // Atribut aria-label berisi deskripsi alternatif
             ></div>
+
+<Stack data={portfolio.stack} />
+
           </Row>
         </>
       )}
-    </Container>
+    </div>
   );
 }

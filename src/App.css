@@ -9,6 +9,30 @@
   font-family: "Poppins", sans-serif;
 }
 
+.custom-display {
+  max-width: 65rem;
+  padding-left: 1.25rem; /* px-5 */
+  padding-right: 1.25rem; /* px-5 */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  /* md breakpoint (768px) */
+  .custom-display {
+    padding-left: 2.5rem; /* md:px-10 */
+    padding-right: 2.5rem; /* md:px-10 */
+  }
+}
+
+/* Custom rule specifically for navigation max-width */
+.header-display {
+  max-width: 80rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .gray-background {
   background-color: #f9f9f9;
 }
@@ -16,22 +40,6 @@
 .dark-background {
   background-color: #2d2e32;
 }
-
-/* styling for NAVBAR component */
-
-/* styling for HOME component */
-
-/* styling for tech STACK part */
-
-/* styling for ABOUT component */
-
-/* styling for PROJECT component */
-
-/* styling for CONTACT component */
-
-/* styling for FOOTER component */
-
-/* styling for about image part */
 
 /* styling for every text that have blue primary color */
 .blue-color {

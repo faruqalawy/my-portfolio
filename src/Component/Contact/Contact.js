@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Container, Row, Col, Form, Button, Image } from "react-bootstrap";
+import { Row, Col, Image } from "react-bootstrap";
 
 import UpIcon from "../../Assets/Icons/up-icon.svg";
 
@@ -60,9 +60,6 @@ const formRef = useRef(null); {/* this ref used by this function and emailjs fun
     }
   }
 
-  {
-    /* function to connect contact form input with email using EmailJS library */
-  }
   {/* this function using the same ref with spreadsheet function above (using formRef) */ }
   const sendEmail = (e) => {
     e.preventDefault();
@@ -76,7 +73,7 @@ const formRef = useRef(null); {/* this ref used by this function and emailjs fun
   };
 
   return (
-    <Container className="contact" id="Contact">
+    <div className="contact custom-display" id="Contact">
       <h1 className="text-center contact-head section-title blue-color font-600">
         GET IN TOUCH
       </h1>
@@ -142,29 +139,33 @@ const formRef = useRef(null); {/* this ref used by this function and emailjs fun
                 }}
                 className="flex-grow-1"
               >
-                <label htmlFor="name"></label>
+                <label htmlFor="Name"></label>
                 <input
                   type="text"
                   id="Name"
                   name="user_name"
                   placeholder="Your Name *"
                   className="input-box"
+                  autoComplete="true"
                 />
               </div>
               <div className="flex-grow-1">
-                <label htmlFor="name"></label>
+                <label htmlFor="Email"></label>
                 <input
                   type="email"
+                  id="Email"
                   name="user_email"
                   placeholder="Your Email *"
                   className="input-box"
+                  autoComplete="true"
                 />
               </div>
             </div>
             <div>
-              <label htmlFor="name"></label>
+              <label htmlFor="Message"></label>
               <textarea
                 type="text"
+                id="Message"
                 name="message"
                 placeholder="Your Message Here *"
                 className="textarea-box"
@@ -192,63 +193,12 @@ const formRef = useRef(null); {/* this ref used by this function and emailjs fun
               )}
             </div>
           </form>
-
-          {/* <Form className="form" ref={formRef} onSubmit={handleSubmit}>
-            <div
-              className={windowWidth > 500 ? "d-flex flex-row" : ""}
-              style={{ marginBottom: 15, marginTop: 12 }}
-            >
-              <Form.Group
-                controlId="exampleForm.ControlInput1"
-                style={{
-                  marginRight: windowWidth > 500 ? 15 : 0,
-                  marginBottom: windowWidth > 500 ? 0 : 15,
-                }}
-                className="flex-grow-1"
-              >
-                <Form.Control
-                  className="input"
-                  type="text"
-                  placeholder="Name*"
-                  name="Name"
-                />
-              </Form.Group>
-              <Form.Group
-                controlId="exampleForm.ControlInput1"
-                className="flex-grow-1"
-              >
-                <Form.Control
-                  className="input"
-                  type="email"
-                  placeholder="Email*"
-                  name="Email"
-                />
-              </Form.Group>
-            </div>
-            <Form.Group
-              className="text-input"
-              controlId="exampleForm.ControlTextarea1"
-            >
-              <Form.Control
-                as="textarea"
-                rows={9}
-                placeholder="Your Message Here*"
-                name="Message"
-              />
-            </Form.Group>
-          </Form>
-          <Button
-            variant="primary"
-            className="btn-contact font-600"
-            type="submit"
-            value="SEND MESSAGE"
-          /> */}
         </Col>
       </Row>
 
       <a href="#Home">
         <Image className="up-icon" src={UpIcon} alt="up-to-home-icon"></Image>
       </a>
-    </Container>
+    </div>
   );
 }

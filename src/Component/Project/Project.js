@@ -1,13 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Row, Col, Card, Button } from "react-bootstrap";
 
 import "./Project.css";
 
 import jsonPortfolio from "../../Json/portfolio.json";
-
-import portoImage1 from "../../Assets/Images/fullpage-cozyhavens.webp";
-import portoImage2 from "../../Assets/Images/fullpage-portfolio.webp";
-import portoImage3 from "../../Assets/Images/fullpage-lumat.webp";
 
 export default function Project() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -29,10 +25,8 @@ export default function Project() {
     return url ? true : false;
   };
 
-  const portoImages = [portoImage1, portoImage2, portoImage3];
-
   return (
-    <Container className="project" id="Project">
+    <div className="project custom-display" id="Project">
       <h1 className="text-center project-head section-title blue-color font-600">
         MY PROJECT
       </h1>
@@ -43,7 +37,7 @@ export default function Project() {
               <Row className="d-flex flex-column ">
                 <Col className="d-flex ">
                 <div className={`project-image sm ${index % 2 === 0 ? "" : "reverse-version"}`}>
-                <img src={portoImages[index]} alt={item.name} />
+                <img src={item.imageUrl} alt={item.name} />
                 </div>
                 </Col>
                 <Col className="d-flex flex-column align-items-center justify-content-center">
@@ -63,6 +57,7 @@ export default function Project() {
                         variant="outline-primary"
                         className="btn-project"
                         href={item.designUrl}
+                        target="_blank" rel="noopener noreferrer"
                       >
                         Design
                       </Button>
@@ -72,6 +67,7 @@ export default function Project() {
                         variant="outline-primary"
                         className="btn-project"
                         href={item.codeUrl}
+                        target="_blank" rel="noopener noreferrer"
                       >
                         Code
                       </Button>
@@ -81,6 +77,7 @@ export default function Project() {
                         variant="outline-primary"
                         className="btn-project btn-3"
                         href={item.liveUrl}
+                        target="_blank" rel="noopener noreferrer"
                       >
                         Live Demo
                       </Button>
@@ -110,6 +107,7 @@ export default function Project() {
                         className="btn-project"
                         style={{ marginRight: 15 }}
                         href={item.designUrl}
+                        target="_blank" rel="noopener noreferrer"
                       >
                         Design
                       </Button>
@@ -120,6 +118,7 @@ export default function Project() {
                         className="btn-project"
                         style={{ marginRight: 15 }}
                         href={item.codeUrl}
+                        target="_blank" rel="noopener noreferrer"
                       >
                         Code
                       </Button>
@@ -129,6 +128,7 @@ export default function Project() {
                         variant="outline-primary"
                         className="btn-project"
                         href={item.liveUrl}
+                        target="_blank" rel="noopener noreferrer"
                       >
                         Live Demo
                       </Button>
@@ -137,7 +137,7 @@ export default function Project() {
                 </Col>
                 <Col>
                 <div className={`project-image lg ${index % 2 === 0 ? "" : "reverse-version"}`}>
-                <img src={portoImages[index]} alt={item.name} />
+                <img src={item.imageUrl} alt={item.name} />
                 </div>
 
                 </Col>
@@ -146,6 +146,6 @@ export default function Project() {
           </Card>
         </Col>
       ))}
-    </Container>
+    </div>
   );
 }
