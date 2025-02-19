@@ -31,14 +31,14 @@
       "key": "5"
     },
     {
-      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/v1/my-portfolio/FIGMA-MONGODB",
-      "name": "Figma and MongoDB",
+      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/v1739941082/FIGMA-SHOPIFY.svg",
+      "name": "Figma and Shopify",
       "class": "stack-icon",
       "key": "6"
     },
     {
-      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/v1/my-portfolio/GIT-LINUX",
-      "name": "Git and Linux",
+      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/v1739941082/GIT-MONGODB.svg",
+      "name": "Git and MongoDB",
       "class": "stack-icon",
       "key": "7"
     }
@@ -50,7 +50,7 @@
   "project": [
     {
       "name": "Cozy Havens",
-      "publish": "DECEMBER 2023",
+      "publish": "DECEMBER 2023 (FE) ~ AUGUST 2024 (BE)",
       "desc": "The Cozy Havens website is an online platform that allows users to rent accommodations, offering a user-friendly interface to discover, compare, and reserve accomodations in Yogyakarta. This website mirrors a project from an online course with slightly different design and content.",
       "stack": "React, Bootstrap, Express, MongoDB",
       "designUrl": "https://www.figma.com/file/3VDpuKmf4RKkQ93R6UJigS/Website-CozyHavens?type=design&node-id=0%3A1&mode=design&t=9k7ZTIQRdOVE5ZnN-1",
@@ -70,14 +70,13 @@
     },
     {
       "name": "Digitronix",
-      "publish": "JUNE 2024",
+      "publish": "JUNE (FE) ~ OCTOBER 2024 (BE)",
       "desc": "Digitronix is an e-commerce site for electronic products. With a user-friendly interface, customers can easily browse, compare, and purchase electronics. Digitronix offers detailed product descriptions and secure payment options, making it one-stop destination for electronics.",
-      "stack": "Vue, Tailwind",
+      "stack": "Express, Vue, MongoDB, Tailwind",
       "designUrl": "https://www.figma.com/design/O9rkzJgHXJAvqxSSS98ndW/Digitronix-Project?t=99ojz8FMoQQUUDUL-0",
-      "codeUrl": "https://github.com/faruqalawy/digitronix-vue-project",
-      "liveUrl": "https://digitronix-vue-project.vercel.app/",
+      "codeUrl": "https://github.com/faruqalawy/MEVN-digitronix",
+      "liveUrl": "https://digitronix.my.id/",
       "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/f_auto,q_auto/v1/my-portfolio/fullpage-digitronix"
-      
     },
     {
       "name": "Lumat 2.0",
@@ -85,9 +84,16 @@
       "desc": "This website was migrated from Lumat 1.0. It is built with Next.js and utilizes cloud data storage to enhance website performance and SEO optimization. Additionally, the code features an improved file structure and cleaner code.",
       "stack": "Next, Tailwind",
       "designUrl": "https://www.figma.com/file/w2kngxkb6nqoR1ZjfEhCje/Lumat-Project?type=design&t=bsGxTo40PNLIlJVN-6",
-      "codeUrl": "https://github.com/faruqalawy/lumat-nextjs-project",
       "liveUrl": "https://lumat.id/",
       "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/f_auto,q_auto/v1/my-portfolio/fullpage-lumat"
+    },
+    {
+      "name": "Noble Jewellery",
+      "publish": "JANUARY 2025",
+      "desc": "Developed this Shopify store in January 2025 as a project for Alva Studio. As a frontend developer, I customized Shopify templates and modified Liquid code to match the provided UI design and enhance the store's functionality.",
+      "stack": "Shopify, Liquid",
+      "liveUrl": "https://noblejewellery.id",
+      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/v1739708374/screencapture-noblejewellery-id-2025-02-16-19_00_58_olbgvb.webp"
     }
   ]
 }

@@ -41,7 +41,7 @@ export default function Project() {
                 </div>
                 </Col>
                 <Col className="d-flex flex-column align-items-center justify-content-center">
-                  <h1 className="font-600 project-title">
+                  <h1 className="font-600 project-title text-center px-3">
                     {item.name}{" "}
                     <span className="project-year">
                       {"("}
@@ -50,7 +50,7 @@ export default function Project() {
                     </span>
                   </h1>
                   <p className="text-center project-desc-sm">{item.desc}</p>
-                  <p>Stack: {item.stack}</p>
+                  <p className="text-center">Stack: {item.stack}</p>
                   <Row className="btn-container d-flex">
                     {isShowed(item.designUrl) && (
                       <Button
@@ -88,7 +88,7 @@ export default function Project() {
             ) : (
               <Row className={`d-flex align-items-center ${index % 2 === 0 ? "" : "flex-row-reverse"}`}>
                 <Col className="d-flex flex-column align-items-center">
-                  <h3 className="font-600 project-title">
+                  <h3 className="px-3 font-600 project-title text-center">
                     {item.name}{" "}
                     <span className="project-year">
                       {"("}
@@ -99,7 +99,7 @@ export default function Project() {
                   <p className="text-center" style={{ width: 415 }}>
                     {item.desc}
                   </p>
-                  <p>Stack: {item.stack}</p>
+                  <p className="text-center">Stack: {item.stack}</p>
                   <Col style={{ marginTop: 8 }}>
                     {isShowed(item.designUrl) && (
                       <Button

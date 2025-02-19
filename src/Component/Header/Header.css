@@ -9,40 +9,70 @@
 
   .nav {
     font-size: 22px !important;
-    padding-left: 50px;
+    display: flex;
     font-weight: 500;
-    padding-right: 0 !important;
-
-    .ml-5 {
-      padding-left: 25px !important;
-    }
+    gap: 12px;
 
     :hover,
     .active {
       color: #1060ee !important;
+    }
+
+    .nav-button {
+      color: white;
+      background-color: #1060ee;
+      padding: 8px 20px !important;
+      border-radius: 50px;
+      border: 1px solid #1060ee;
+      align-items: center;
+
+      &:hover {
+        background-color: white !important;
+        color: #1060ee !important;
+      }
+
+      &.active {
+        background-color: #1060ee;
+        color: white !important;
+      }
     }
   }
 }
 
 /* styling for OFFCANVAS ( <= 991px ) */
 @media screen and (max-width: 991px) {
-    .offcanvas {
-        width: 100% !important;
+  .offcanvas {
+    width: 100% !important;
 
-        .offcanvas-body {
-            display: flex !important;
-            align-items: center;
-    
-            .offcanvas-case {
-                font-size: clamp(20px, 30px, 35px) !important;
-                display: flex !important;
-                justify-content: center;
-                overflow-y: scroll !important;
-        
-                &:hover, .active {
-                    color: #1060ee !important;
-                }
-            }
+    .offcanvas-body {
+      display: flex !important;
+      align-items: center;
+
+      .offcanvas-case {
+        font-size: clamp(20px, 30px, 35px) !important;
+        display: flex !important;
+        justify-content: center;
+        overflow-y: scroll !important;
+        border-radius: 50px;
+
+        &:hover,
+        .active {
+          color: white;
+          background-color: #1060ee;
+          border-radius: 50px;
         }
+      }
     }
+  }
+}
+
+/* Styling for large display */
+@media screen and (min-width: 992px) {
+  .header-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
 }

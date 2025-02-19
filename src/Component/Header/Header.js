@@ -39,14 +39,21 @@ export default function Header() {
               <Nav.Link href="#Home" className="offcanvas-case">
                 Home
               </Nav.Link>
-              <Nav.Link href="#About" className="ml-5 offcanvas-case">
+              <Nav.Link href="#About" className="offcanvas-case">
                 About
               </Nav.Link>
-              <Nav.Link href="#Project" className="ml-5 offcanvas-case">
+              <Nav.Link href="#Project" className="offcanvas-case">
                 Project
               </Nav.Link>
-              <Nav.Link href="#Contact" className="ml-5 offcanvas-case">
+              <Nav.Link href="#Contact" className="offcanvas-case">
                 Contact
+              </Nav.Link>
+              <Nav.Link
+                href="https://drive.google.com/file/d/1mCjGHW1bq8nhoPD0GAVOGairJPHE-KS7/view?usp=sharing"
+                className="offcanvas-case nav-button"
+                target="_blank"
+              >
+                Download CV
               </Nav.Link>
             </Nav>
           </OffcanvasBody>

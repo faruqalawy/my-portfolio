@@ -7,6 +7,7 @@ import GithubIcon from "../../Assets/Icons/github-footer.svg";
 import "./Footer.css"
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <div className='footer custom-display'>
         <Col className='pt-5 pb-5'>
@@ -34,7 +35,7 @@ export default function Footer() {
               />
             </a>
             </Col>
-            <h1 className='text-footer text-center'>Copyright <span style={{fontSize: 18}}>©</span> 2024 <span className='font-600'>Faruq Alawy. </span>All rights reserved</h1>
+            <h1 className='text-footer text-center'>Copyright <span style={{fontSize: 18}}>©</span> {currentYear} <span className='font-600'>Faruq Alawy. </span>All rights reserved</h1>
         </Col>
     </div>
   )
