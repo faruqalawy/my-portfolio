@@ -36,9 +36,13 @@ export default function Project() {
             {windowWidth < 992 ? (
               <Row className="d-flex flex-column ">
                 <Col className="d-flex ">
-                <div className={`project-image sm ${index % 2 === 0 ? "" : "reverse-version"}`}>
-                <img src={item.imageUrl} alt={item.name} />
-                </div>
+                  <div
+                    className={`project-image sm ${
+                      index % 2 === 0 ? "" : "reverse-version"
+                    }`}
+                  >
+                    <img src={item.imageUrl} alt={item.name} />
+                  </div>
                 </Col>
                 <Col className="d-flex flex-column align-items-center justify-content-center text-center ">
                   <h1 className="font-600 project-title">
@@ -57,7 +61,8 @@ export default function Project() {
                         variant="outline-primary"
                         className="btn-project"
                         href={item.designUrl}
-                        target="_blank" rel="noopener noreferrer"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Design
                       </Button>
@@ -67,7 +72,8 @@ export default function Project() {
                         variant="outline-primary"
                         className="btn-project"
                         href={item.codeUrl}
-                        target="_blank" rel="noopener noreferrer"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Code
                       </Button>
@@ -77,16 +83,21 @@ export default function Project() {
                         variant="outline-primary"
                         className="btn-project btn-3"
                         href={item.liveUrl}
-                        target="_blank" rel="noopener noreferrer"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
-                        Live Demo
+                        Live {item.type === "personal" ? "Demo" : "Preview"}
                       </Button>
                     )}
                   </Row>
                 </Col>
               </Row>
             ) : (
-              <Row className={`d-flex align-items-center ${index % 2 === 0 ? "" : "flex-row-reverse"}`}>
+              <Row
+                className={`d-flex align-items-center ${
+                  index % 2 === 0 ? "" : "flex-row-reverse"
+                }`}
+              >
                 <Col className="d-flex flex-column align-items-center">
                   <h3 className="font-600 project-title">
                     {item.name}{" "}
@@ -107,7 +118,8 @@ export default function Project() {
                         className="btn-project"
                         style={{ marginRight: 15 }}
                         href={item.designUrl}
-                        target="_blank" rel="noopener noreferrer"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Design
                       </Button>
@@ -118,7 +130,8 @@ export default function Project() {
                         className="btn-project"
                         style={{ marginRight: 15 }}
                         href={item.codeUrl}
-                        target="_blank" rel="noopener noreferrer"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Code
                       </Button>
@@ -128,18 +141,22 @@ export default function Project() {
                         variant="outline-primary"
                         className="btn-project"
                         href={item.liveUrl}
-                        target="_blank" rel="noopener noreferrer"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
-                        Live Demo
+                        Live {item.type === "personal" ? "Demo" : "Preview"}
                       </Button>
                     )}
                   </Col>
                 </Col>
                 <Col>
-                <div className={`project-image lg ${index % 2 === 0 ? "" : "reverse-version"}`}>
-                <img src={item.imageUrl} alt={item.name} />
-                </div>
-
+                  <div
+                    className={`project-image lg ${
+                      index % 2 === 0 ? "" : "reverse-version"
+                    }`}
+                  >
+                    <img src={item.imageUrl} alt={item.name} />
+                  </div>
                 </Col>
               </Row>
             )}

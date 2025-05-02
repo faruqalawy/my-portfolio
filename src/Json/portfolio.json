@@ -53,6 +53,7 @@
       "publish": "DECEMBER 2023",
       "desc": "The Cozy Havens website is an online platform that allows users to rent accommodations, offering a user-friendly interface to discover, compare, and reserve accomodations in Yogyakarta. This website mirrors a project from an online course with slightly different design and content.",
       "stack": "React, Bootstrap, Express, MongoDB",
+      "type": "personal",
       "designUrl": "https://www.figma.com/file/3VDpuKmf4RKkQ93R6UJigS/Website-CozyHavens?type=design&node-id=0%3A1&mode=design&t=9k7ZTIQRdOVE5ZnN-1",
       "codeUrl": "https://github.com/faruqalawy/MERN-cozy-havens",
       "liveUrl": "https://mern-cozy-havens.vercel.app/",
@@ -63,6 +64,7 @@
       "publish": "APRIL 2024",
       "desc": "Lumat is an online platform that represents the brand \"LUMAT\". It provides comprehensive information about the profile, products, portfolio, and contact details for ordering or other business purposes. This was my first professional project",
       "stack": "React, Tailwind",
+      "type": "personal",
       "designUrl": "https://www.figma.com/file/w2kngxkb6nqoR1ZjfEhCje/Lumat-Project?type=design&t=bsGxTo40PNLIlJVN-6",
       "codeUrl": "https://github.com/faruqalawy/lumat-website-project",
       "liveUrl": "https://faruqalawy.github.io/lumat-website-project/",
@@ -73,21 +75,31 @@
       "publish": "JUNE 2024",
       "desc": "Digitronix is an e-commerce site for electronic products. With a user-friendly interface, customers can easily browse, compare, and purchase electronics. Digitronix offers detailed product descriptions and secure payment options, making it one-stop destination for electronics.",
       "stack": "Vue, Tailwind",
+      "type": "personal",
       "designUrl": "https://www.figma.com/design/O9rkzJgHXJAvqxSSS98ndW/Digitronix-Project?t=99ojz8FMoQQUUDUL-0",
       "codeUrl": "https://github.com/faruqalawy/digitronix-vue-project",
       "liveUrl": "https://digitronix-vue-project.vercel.app/",
       "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/f_auto,q_auto/v1/my-portfolio/fullpage-digitronix"
-      
     },
     {
       "name": "Lumat 2.0",
       "publish": "JULY 2024",
       "desc": "This website was migrated from Lumat 1.0. It is built with Next.js and utilizes cloud data storage to enhance website performance and SEO optimization. Additionally, the code features an improved file structure and cleaner code.",
       "stack": "Next, Tailwind",
+      "type": "professional",
       "designUrl": "https://www.figma.com/file/w2kngxkb6nqoR1ZjfEhCje/Lumat-Project?type=design&t=bsGxTo40PNLIlJVN-6",
       "codeUrl": "https://github.com/faruqalawy/lumat-nextjs-project",
       "liveUrl": "https://lumat.id/",
       "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/f_auto,q_auto/v1/my-portfolio/fullpage-lumat"
+    },
+    {
+      "name": "Noble Jewellery",
+      "publish": "JANUARY 2025",
+      "desc": "",
+      "stack": "Shopify, Liquid",
+      "type": "professional",
+      "liveUrl": "https://noblejewellery.id/",
+      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/v1739708374/screencapture-noblejewellery-id-2025-02-16-19_00_58_olbgvb.webp"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://faruqalawy.com/",
+  "homepage": "https://faruqalawy.github.io/my-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
@@ -52,6 +52,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   }
 }
