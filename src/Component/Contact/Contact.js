@@ -1,3 +1,4 @@
+/* eslint-disable no-lone-blocks */
 import React, { useState, useEffect, useRef } from "react";
 import { Row, Col, Image } from "react-bootstrap";
 
