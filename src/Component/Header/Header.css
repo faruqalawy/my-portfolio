@@ -21,28 +21,54 @@
     .active {
       color: #1060ee !important;
     }
+
+    .nav-button {
+      color: white;
+      background-color: #1060ee;
+      padding: 8px 20px !important;
+      border-radius: 50px;
+      border: 2px solid #1060ee;
+      align-items: center;
+      margin-left: 20px !important;
+
+      &:hover {
+        background-color: white;
+        color: #1060ee !important;
+      }
+
+      &.active {
+        color: white !important;
+      }
+
+      &.active:hover {
+        color: #1060ee !important;
+      }
+    }
   }
 }
 
 /* styling for OFFCANVAS ( <= 991px ) */
 @media screen and (max-width: 991px) {
-    .offcanvas {
-        width: 100% !important;
+  .offcanvas {
+    width: 100% !important;
 
-        .offcanvas-body {
-            display: flex !important;
-            align-items: center;
-    
-            .offcanvas-case {
-                font-size: clamp(20px, 30px, 35px) !important;
-                display: flex !important;
-                justify-content: center;
-                overflow-y: scroll !important;
-        
-                &:hover, .active {
-                    color: #1060ee !important;
-                }
-            }
+    .offcanvas-body {
+      display: flex !important;
+      align-items: center;
+
+      .offcanvas-case {
+        font-size: clamp(20px, 30px, 35px) !important;
+        display: flex !important;
+        justify-content: center;
+        overflow-y: scroll !important;
+        border-radius: 50px;
+
+        &:hover, .active {
+          color: white;
+          background-color: #1060ee;
+          border-radius: 50px;
         }
+      }
     }
+  }
 }

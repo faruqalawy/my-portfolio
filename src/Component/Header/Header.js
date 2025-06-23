@@ -48,6 +48,13 @@ export default function Header() {
               <Nav.Link href="#Contact" className="ml-5 offcanvas-case">
                 Contact
               </Nav.Link>
+              <Nav.Link 
+                href="https://drive.google.com/file/d/1mCjGHW1bq8nhoPD0GAVOGairJPHE-KS7/view?usp=sharing"
+                className="offcanvas-case nav-button"
+                target="_blank"
+              >
+                Download CV
+              </Nav.Link>
             </Nav>
           </OffcanvasBody>
         </NavbarOffcanvas>
