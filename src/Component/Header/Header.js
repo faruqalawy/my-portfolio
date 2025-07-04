@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga4";
 
 import {
   Navbar,
@@ -14,6 +15,13 @@ import {
 import "./Header.css";
 
 export default function Header() {
+  const analyticDownloadCV = () => {
+    ReactGA.event({
+      category: "CV",
+      action: "download_cv_clicked",
+      label: "Header Download CV Button"
+    })
+  }
   return (
     <Navbar collapseOnSelect sticky="top" className="Nav" expand="lg">
       <div className="custom-display header-display">
@@ -52,6 +60,7 @@ export default function Header() {
                 href="https://drive.google.com/file/d/1mCjGHW1bq8nhoPD0GAVOGairJPHE-KS7/view?usp=sharing"
                 className="offcanvas-case nav-button"
                 target="_blank"
+                onClick={analyticDownloadCV}
               >
                 Download CV
               </Nav.Link>

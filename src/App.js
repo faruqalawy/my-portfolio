@@ -9,7 +9,15 @@ import Footer from "./Component/Footer/Footer";
 
 import portfolio from "./Json/portfolio.json"
 
+import ReactGA from "react-ga4";
+import { useEffect } from "react";
+
+
 function App() {
+  useEffect(() => {
+    ReactGA.initialize("G-2SYGNWZ60V");
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname, title: "My Portfolio" });
+  }, [])
   return (
     <div className="App" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true">
       <Header />

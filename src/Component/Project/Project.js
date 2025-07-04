@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ReactGA from "react-ga4";
 import { Row, Col, Card, Button } from "react-bootstrap";
 
 import "./Project.css";
@@ -23,6 +24,14 @@ export default function Project() {
   // Fungsi untuk menentukan apakah tombol harus ditampilkan
   const isShowed = (url) => {
     return url ? true : false;
+  };
+
+  const trackEvent = (projectName, actionType) => {
+    ReactGA.event({
+      category: "Project Button",
+      action: `Clicked ${actionType} Button for ${projectName}`,
+      label: projectName,
+    });
   };
 
   return (
@@ -63,6 +72,7 @@ export default function Project() {
                         href={item.designUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => trackEvent(item.name, "Design")}
                       >
                         Design
                       </Button>
@@ -74,6 +84,7 @@ export default function Project() {
                         href={item.codeUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => trackEvent(item.name, "Code")}
                       >
                         Code
                       </Button>
@@ -85,6 +96,7 @@ export default function Project() {
                         href={item.liveUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => trackEvent(item.name, "Live")}
                       >
                         Live {item.type === "personal" ? "Demo" : "Preview"}
                       </Button>
@@ -120,6 +132,7 @@ export default function Project() {
                         href={item.designUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => trackEvent(item.name, "Design")}
                       >
                         Design
                       </Button>
@@ -132,6 +145,7 @@ export default function Project() {
                         href={item.codeUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => trackEvent(item.name, "Code")}
                       >
                         Code
                       </Button>
@@ -143,6 +157,7 @@ export default function Project() {
                         href={item.liveUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => trackEvent(item.name, "Live")}
                       >
                         Live {item.type === "personal" ? "Demo" : "Preview"}
                       </Button>
