@@ -100,11 +100,9 @@ export default function Content() {
                   sequence={[
                     "Full Stack Developer",
                     1000,
-                    "Back-End Developer",
-                    1000,
-                    "Front-End Developer",
-                    1000,
                     "Web Developer",
+                    1000,
+                    "Shopify Developer",
                     1000,
                   ]}
                   speed={5}

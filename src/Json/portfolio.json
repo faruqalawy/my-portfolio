@@ -31,14 +31,14 @@
       "key": "5"
     },
     {
-      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/v1/my-portfolio/FIGMA-MONGODB",
-      "name": "Figma and MongoDB",
+      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/v1739941082/FIGMA-SHOPIFY.svg",
+      "name": "Figma and Shopify",
       "class": "stack-icon",
       "key": "6"
     },
     {
-      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/v1/my-portfolio/GIT-LINUX",
-      "name": "Git and Linux",
+      "imageUrl": "https://res.cloudinary.com/dnwvsqlh1/image/upload/v1739941082/GIT-MONGODB.svg",
+      "name": "Git and MongoDB",
       "class": "stack-icon",
       "key": "7"
     }
