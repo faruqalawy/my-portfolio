@@ -46,6 +46,19 @@ export default function Content() {
               </h1>
               <h2 className="skill-text text-center">
                 <span>A </span>
+                <TypeAnimation
+                  sequence={[
+                    "Full Stack Developer",
+                    1000,
+                    "Web Developer",
+                    1000,
+                    "Shopify Developer",
+                    1000,
+                  ]}
+                  speed={5}
+                  deletionSpeed={5}
+                  repeat={Infinity}
+                />
               </h2>
               <div
                 style={{ margin: 0, marginTop: 25 }}
@@ -90,9 +103,9 @@ export default function Content() {
           <Row className="align-items-center">
             <Col className="left-side">
               {/* <h2 className="hello-text">Hello, I'm</h2> */}
-              
+
               <h1 style={{ fontWeight: 600 }} className="name-text">
-              Hello, I'm <span className="blue-color">Faruq Alawy</span>
+                Hello, I'm <span className="blue-color">Faruq Alawy</span>
               </h1>
               <h2 className="skill-text">
                 <span>A </span>
@@ -151,8 +164,7 @@ export default function Content() {
               aria-label="Main Home Image" // Atribut aria-label berisi deskripsi alternatif
             ></div>
 
-<Stack data={portfolio.stack} />
-
+            <Stack data={portfolio.stack} />
           </Row>
         </>
       )}

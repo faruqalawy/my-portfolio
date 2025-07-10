@@ -57,7 +57,7 @@ export default function About(props) {
                 <p className="font-600 title">STACK</p>
                 <p>
                   Html, Css, JavaScript, Vue, React, Next, Node, Express,
-                  MongoDB, Bootstrap, Tailwind, Figma, Git, and Linux.
+                  Bootstrap, Tailwind, Figma, Shopify, Git, and MongoDB.
                 </p>
               </Col>
             </Row>
