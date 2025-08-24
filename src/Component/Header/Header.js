@@ -57,7 +57,7 @@ export default function Header() {
                 Contact
               </Nav.Link>
               <Nav.Link 
-                href="https://drive.google.com/file/d/1mCjGHW1bq8nhoPD0GAVOGairJPHE-KS7/view?usp=sharing"
+                href="https://drive.google.com/file/d/1KIDRYKdyjh4aieyfKQvxrAKVwyTEbltP/view?usp=sharing"
                 className="offcanvas-case nav-button"
                 target="_blank"
                 onClick={analyticDownloadCV}
